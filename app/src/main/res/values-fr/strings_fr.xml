@@ -1,0 +1,24 @@
+<resources>
+
+    <string name="txt_button1">START</string>
+
+
+    <string name="txt_name">Enter your Name</string>
+    <string name="txt_password">Enter your Password </string>
+    <string name="action_sign_in">Sign in or register</string>
+
+    <string name="txt_email">Enter your email</string>
+    <string name="txt_passwordRepeat">Password Repeat</string>
+    <string name="txt_register">Register</string>
+    <string name="txt_button3" />
+
+    <string name="txv_text_1">MAFE</string>
+    <string name="txv_text_2">Pasteleria Artesanal</string>
+    <string name="txv_product1">Fruit Cake</string>
+    <string name="txv_product2">Theme Cake</string>
+    <string name="txv_product3">Favorite Cake</string>
+    <string name="txv_product4">Cupcakes</string>
+
+    <string name="txv_description4">Ideales para los dias más especiales del año,la variedad que aqui presentamos es amplia y tentadora</string>
+    <string name="txv_precio1">PRECIO:$1234</string>
+</resources>
