@@ -123,7 +123,7 @@
             android:paddingStart="9dp"
             android:paddingTop="19dp"
             android:paddingBottom="19dp"
-            android:text="@string/txv_description4"
+            android:text="@string/txv_description1"
             android:textColor="@color/white"
             android:textSize="17sp"
             android:textStyle="bold" />
@@ -166,7 +166,7 @@
             android:paddingStart="9dp"
             android:paddingTop="19dp"
             android:paddingBottom="19dp"
-            android:text="@string/txv_description4"
+            android:text="@string/txv_description2"
             android:textColor="@color/white"
             android:textSize="17sp"
             android:textStyle="bold" />
@@ -191,7 +191,7 @@
             android:layout_gravity="bottom"
             android:layout_marginBottom="1dp"
             android:background="@drawable/degraded1"
-            android:src="@drawable/ponque_tematico1" />
+            android:src="@drawable/theme" />
 
     </androidx.cardview.widget.CardView>
 
@@ -215,7 +215,7 @@
             android:paddingStart="9dp"
             android:paddingTop="19dp"
             android:paddingBottom="19dp"
-            android:text="@string/txv_description4"
+            android:text="@string/txv_description3"
             android:textColor="@color/white"
             android:textSize="17sp"
             android:textStyle="bold" />

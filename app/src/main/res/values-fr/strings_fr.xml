@@ -1,24 +1,29 @@
 <resources>
 
-    <string name="txt_button1">START</string>
+    <string name="txt_start">START</string>
 
 
-    <string name="txt_name">Enter your Name</string>
-    <string name="txt_password">Enter your Password </string>
-    <string name="action_sign_in">Sign in or register</string>
-
-    <string name="txt_email">Enter your email</string>
-    <string name="txt_passwordRepeat">Password Repeat</string>
+    <string name="edit_name_user">Insert your name</string>
+    <string name="edit_email_user">Insert your Email</string>
+    <string name="edit_password_user">Insert your Password</string>
+    <string name="txt_name">Name</string>
+    <string name="txt_email">Email</string>
+    <string name="txt_password">Password </string>
+    <string name="txt_login">Login</string>
     <string name="txt_register">Register</string>
-    <string name="txt_button3" />
 
     <string name="txv_text_1">MAFE</string>
-    <string name="txv_text_2">Pasteleria Artesanal</string>
+    <string name="txv_text_2">Artisan Pastry</string>
     <string name="txv_product1">Fruit Cake</string>
     <string name="txv_product2">Theme Cake</string>
     <string name="txv_product3">Favorite Cake</string>
     <string name="txv_product4">Cupcakes</string>
 
-    <string name="txv_description4">Ideales para los dias más especiales del año,la variedad que aqui presentamos es amplia y tentadora</string>
-    <string name="txv_precio1">PRECIO:$1234</string>
+    <string name="txv_description1">Fruity and juicy cakes; filled with fruit, to obtain the best result our recipes are made with essences and fresh and natural products</string>
+    <string name="txv_description2">We make your idea come true.Enjoy your creativity, we give it flavor with creamy and sweet toppings </string>
+    <string name="txv_description3">The favorites and traditional cakes of various colors, very decorative, and special toppings to give shape to your ideas.</string>
+    <string name="txv_description4">Ideal for the most special days of the year, the variety that we present here is wide and tempting</string>
+    <string name="txv_price1">Price:$1234</string>
+
+
 </resources>

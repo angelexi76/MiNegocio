@@ -1,24 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="txt_button1">INICIAR</string>
 
+    <string name="txt_start">INICIAR</string>
+    <string name="edit_name_user">Ingrese su Nombre</string>
+    <string name="edit_email_user">Ingrese su Correo</string>
+    <string name="edit_password_user">Ingrese su Contraseña </string>
 
-    <string name="txt_name">Ingrese Su Nombre</string>
-    <string name="txt_password">Enter your Password </string>
-    <string name="action_sign_in">Sign in or register</string>
-
-    <string name="txt_email">Enter your email</string>
-    <string name="txt_passwordRepeat">Password Repeat</string>
+    <string name="txt_name">Nombre</string>
+    <string name="txt_email">Correo</string>
+    <string name="txt_password">Contraseña</string>
+    <string name="txt_login">Login</string>
     <string name="txt_register">Register</string>
-    <string name="txt_button3" />
+
+
 
     <string name="txv_text_1">MAFE</string>
     <string name="txv_text_2">Pasteleria Artesanal</string>
-    <string name="txv_product1">Fruit Cake</string>
-    <string name="txv_product2">Theme Cake</string>
-    <string name="txv_product3">Favorite Cake</string>
+    <string name="txv_product1">Ponque de frutas</string>
+    <string name="txv_product2">Ponque Tematico</string>
+    <string name="txv_product3">Favoritos</string>
     <string name="txv_product4">Cupcakes</string>
 
+    <string name="txv_description1">Afrutados y jugosos ponques; rellenos de fruta,para obtener el mejor resultado nuestras recetas se elaboran con esencias y productos frescos y naturales</string>
+    <string name="txv_description2">Hacemos realidad su idea.Disfrute  de su creatividad,le damos sabor con coberturas cremosas y dulces </string>
+    <string name="txv_description3">Los favoritos y tradicionales de varios colores muy decorativos,y coberturas especiales para dar forma a sus ideas</string>
     <string name="txv_description4">Ideales para los dias más especiales del año,la variedad que aqui presentamos es amplia y tentadora</string>
-    <string name="txv_precio1">PRECIO:$1234</string>
+    <string name="txv_price1">Precio:$1234</string>
+
+
 </resources>
