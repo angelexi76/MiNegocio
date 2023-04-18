@@ -52,9 +52,12 @@
             android:id="@+id/button1"
             android:layout_width="190dp"
             android:layout_height="wrap_content"
+            android:backgroundTint="@color/material_500"
             android:layout_gravity="center"
             android:layout_margin="140dp"
             android:onClick="start"
+            android:textColor="@color/white"
+            android:background="@drawable/boton"
             android:text="@string/txt_start"
             android:textSize="30dp" />
 

@@ -3,9 +3,9 @@
     <string name="txt_start">START</string>
 
 
-    <string name="edit_name_user">your name</string>
-    <string name="edit_email_user">your Email</string>
-    <string name="edit_password_user">your Password</string>
+    <string name="edit_name_user">Name</string>
+    <string name="edit_email_user"> Email</string>
+    <string name="edit_password_user">Password</string>
     <string name="txt_name">Name</string>
     <string name="txt_email">Email</string>
     <string name="txt_password">Password </string>
@@ -16,13 +16,17 @@
     <string name="txv_text_2">Artisan Pastry</string>
     <string name="txv_product1">Fruit Cake</string>
     <string name="txv_product2">Theme Cake</string>
-    <string name="txv_product3">Favorite Cake</string>
+    <string name="txv_product3">Favorites</string>
     <string name="txv_product4">Cupcakes</string>
+    <string name="txv_logout">log out</string>
+    <string name="txv_search">Search</string>
+
 
     <string name="txv_description1">Fruity and juicy cakes; filled with fruit, to obtain the best result our recipes are made with essences and fresh and natural products</string>
     <string name="txv_description2">We make your idea come true.Enjoy your creativity, we give it flavor with creamy and sweet toppings </string>
-    <string name="txv_description3">The favorites and traditional cakes of various colors, very decorative, and special toppings to give shape to your ideas.</string>
-    <string name="txv_description4">Ideal for the most special days of the year, the variety that we present here is wide and tempting</string>
+    <string name="txv_description3">The favorite and traditional cakes of various colors, very decorative and with special toppings to give shape to your ideas.
+You also find cupcakes accompanied a nice and personalized packaging, assemble it to your liking</string>
+    <string name="txv_description4">Cupcakes are the star of confectionery,Ideal for the most special days of the year, the variety that we present here is wide and tempting</string>
     <string name="txv_price1">Price:$1234</string>
 
 

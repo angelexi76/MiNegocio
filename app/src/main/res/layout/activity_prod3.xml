@@ -16,24 +16,27 @@
 
 
         <androidx.appcompat.widget.Toolbar
-            android:id="@+id/barra"
+            android:id="@+id/my_barra"
             android:layout_width="match_parent"
-            android:layout_height="70dp"
+            android:layout_height="?actionBarSize"
+            app:titleTextColor="@color/design_default_color_primary_dark"
+            android:elevation="3dp"
             android:background="@drawable/degraded_2"
-            android:minHeight="?attr/actionBarSize"
-            android:theme="?attr/actionBarTheme"
+            android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
             app:backgroundTint="@null" />
 
 
 
 
         <androidx.cardview.widget.CardView
+            android:id="@+id/card3"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_margin="10dp"
             android:orientation="vertical"
             android:padding="15dp"
-            app:cardBackgroundColor="@color/rosa"
+            app:cardBackgroundColor="@color/rosi"
             app:cardCornerRadius="30dp"
             app:cardElevation="@dimen/cardview_compat_inset_shadow"
             app:backgroundTint="@null">
@@ -59,9 +62,9 @@
                 android:background="@color/rosa"
                 android:paddingStart="6dp"
                 android:paddingTop="6dp"
-                android:text="@string/txv_description4"
+                android:text="@string/txv_description3"
                 android:textColor="@color/material_500"
-                android:textSize="25sp"
+                android:textSize="19sp"
                 android:textStyle="italic" />
 
             <ImageView
@@ -69,14 +72,14 @@
                 android:layout_height="100dp"
                 android:layout_gravity="center"
                 android:layout_marginBottom="110dp"
-                android:src="@drawable/theme2" />
+                android:src="@drawable/cup3" />
 
             <ImageView
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:layout_marginStart="5dp"
                 android:layout_marginTop="80dp"
-                android:src="@drawable/cake_favorito" />
+                android:src="@drawable/caja1" />
 
 
             <ImageView
@@ -85,7 +88,7 @@
                 android:layout_gravity="end"
                 android:layout_marginTop="80dp"
                 android:layout_marginEnd="5dp"
-                android:src="@drawable/favorite" />
+                android:src="@drawable/caja2" />
 
             <TextView
 
@@ -106,6 +109,7 @@
                 android:layout_marginTop="600dp"
                 android:layout_marginEnd="6dp"
                 android:background="@drawable/boton"
+                android:backgroundTint="@color/white"
                 android:orientation="horizontal">
 
 
@@ -114,11 +118,11 @@
                     android:layout_width="50dp"
                     android:layout_height="50dp"
                     android:layout_marginStart="10dp"
-                    android:padding="1dp"
                     android:background="@drawable/boton"
-                    android:text="+1"
-                    android:textSize="25dp"
-                    />
+                    android:onClick="sum3"
+                    android:padding="1dp"
+                    android:text="+"
+                    android:textSize="25dp" />
 
 
                 <TextView
@@ -129,6 +133,7 @@
                     android:text="0"
                     android:padding="1dp"
                     android:gravity="center"
+                    android:onClick="text3"
                     android:background="@drawable/boton"
                     android:textColor="@color/black"
                     android:textSize="25sp"
@@ -140,7 +145,8 @@
                     android:layout_height="50dp"
                     android:background="@drawable/boton"
                     android:padding="1dp"
-                    android:text="-1"
+                    android:onClick="rest3"
+                    android:text="-"
                     android:textSize="25dp" />
 
 

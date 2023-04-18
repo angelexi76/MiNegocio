@@ -29,25 +29,28 @@ class LoginActivity : AppCompatActivity() {
     }
 
 
-    //atraves del objecto email extraigo la info del editext .text extrae el text y lo convierte a string con to.string
+   // atraves del objecto email extraigo la info del editext .text extrae el text y lo convierte a string con to.string
     //si esto es == se va al a otra condicion si es == 1234
     //!!valido que el objecto no este nulo cuando extraiga la info //
     fun login(login: View) {
 
 
-        if (email!!.text.toString() == "user@email.com" && password!!.text.toString() == "1234") {
+
+
+        if (email!!.text.toString() == "user@" && password!!.text.toString() == "1234") {
             val alert=AlertDialog.Builder(this).setTitle("WELCOME")
                 .setMessage("Login").create().show()
+
             }
 
-            else{
-                val alert=AlertDialog.Builder(this).setTitle("ERROR")
-                    .setMessage("user or password are wrong").create().show()
-            }
+                else{
+                    val alert=AlertDialog.Builder(this).setTitle("ERROR")
+                        .setMessage("user or password are wrong").create().show()
+                }
 
-        val entrar = Intent(this,ProdActivity::class.java)
+       val entrar = Intent(this,ProdActivity::class.java)
 
-        startActivity(entrar)
+       startActivity(entrar)
 
 
 

@@ -69,15 +69,15 @@
                 android:id="@+id/email"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="5dp"
+                android:layout_marginStart="10dp"
                 android:layout_marginEnd="5dp"
                     android:background="@drawable/boton"
                 android:hint="@string/txt_email"
                 android:inputType="textEmailAddress"
-                android:paddingStart="3dp"
+                android:paddingStart="6dp"
                 android:textColor="@color/black"
                 android:textColorHint="@color/black"
-                android:textSize="20dp"
+                android:textSize="30dp"
                 android:textStyle="italic" />
 
             </com.google.android.material.textfield.TextInputLayout>
@@ -92,16 +92,17 @@
                     android:id="@+id/password"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="5dp"
-                    android:layout_marginEnd="5dp"
+                    android:layout_marginStart="10dp"
                     android:layout_marginTop="10dp"
+                    android:layout_marginEnd="5dp"
                     android:background="@drawable/boton"
                     android:hint="@string/txt_password"
                     android:inputType="textPassword"
-                    android:paddingStart="3dp"
+                    android:paddingStart="6dp"
+                    android:textAlignment="textStart"
                     android:textColor="@color/black"
                     android:textColorHint="@color/black"
-                    android:textSize="20dp"
+                    android:textSize="30dp"
                     android:textStyle="italic" />
 
             </com.google.android.material.textfield.TextInputLayout>
@@ -115,8 +116,9 @@
                 android:layout_marginTop="40dp"
                 android:layout_marginBottom="5dp"
                 android:onClick="login"
+                android:backgroundTint="@color/material_500"
                 android:text="@string/txt_login"
-                android:textSize="20dp"
+                android:textSize="30dp"
                 android:textColor="@color/white"
                 android:background="@drawable/boton"/>
 

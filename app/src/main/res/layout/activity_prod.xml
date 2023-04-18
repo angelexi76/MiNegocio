@@ -8,20 +8,23 @@
     android:background="@color/white"
     tools:context=".ProdActivity">
 
+
+
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/rosa"
+        android:layout_margin="3dp"
+        android:background="@drawable/degraded_2"
         android:orientation="vertical">
 
         <TextView
             android:id="@+id/text_1"
-            android:layout_width="98dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-
             android:text="@string/txv_text_1"
-            android:textColor="@color/material_500"
+            android:textColor="@color/white"
             android:textSize="25sp"
             android:textStyle="bold" />
 
@@ -31,71 +34,18 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:text="@string/txv_text_2"
-            android:textColor="@color/material_500"
-            android:textSize="23sp" />
+            android:textColor="@color/white"
+            android:textSize="20sp" />
     </LinearLayout>
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:paddingTop="3dp"
-        android:layout_margin="3dp"
-        android:background="@drawable/degraded_2"
-        android:orientation="horizontal">
 
-        <TextView
-            android:id="@+id/product1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="3dp"
-            android:padding="4dp"
-            android:paddingStart="9dp"
-            android:shadowColor="@color/black"
-            android:text="@string/txv_product1"
-            android:textColor="@color/white"
-            android:textStyle="bold"
-            android:textSize="16sp" />
-
-        <TextView
-            android:id="@+id/product2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="3dp"
-            android:padding="4dp"
-            android:text="@string/txv_product2"
-            android:textColor="@color/white"
-            android:textSize="16sp"
-            android:textStyle="bold"/>
-
-        <TextView
-            android:id="@+id/product3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="3dp"
-            android:padding="4dp"
-            android:text="@string/txv_product3"
-            android:textColor="@color/white"
-            android:textSize="16sp"
-            android:textStyle="bold"/>
-
-        <TextView
-            android:id="@+id/product4"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="3dp"
-            android:padding="4dp"
-            android:text="@string/txv_product4"
-            android:textColor="@color/white"
-            android:textSize="16sp"
-            android:textStyle="bold"/>
-    </LinearLayout>
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:onClick="fruit1"
         app:cardCornerRadius="10dp"
-        android:paddingTop="3dp"
-        android:layout_margin="5dp"
+        android:layout_margin="3dp"
         android:layout_weight="1"
         android:background="@drawable/degraded_2"
         android:orientation="horizontal"
@@ -103,42 +53,42 @@
 
         <ImageView
             android:id="@+id/image1"
-            android:layout_width="104dp"
-            android:layout_height="112dp"
-            android:layout_gravity="bottom"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="12dp"
+            android:layout_gravity="center_vertical"
             android:layout_marginBottom="1dp"
-            android:background="@drawable/degraded1"
-            android:src="@drawable/cake1"
-            />
+            android:src="@drawable/cake1" />
 
         <TextView
 
             android:id="@+id/description4"
-            android:layout_width="299dp"
+            android:layout_width="280dp"
             android:layout_height="match_parent"
             android:layout_gravity="right"
             android:layout_marginTop="36dp"
             android:layout_marginBottom="1dp"
             android:background="@drawable/degraded1"
             android:paddingStart="9dp"
-            android:paddingTop="19dp"
+            android:paddingTop="2dp"
             android:paddingBottom="19dp"
             android:text="@string/txv_description1"
             android:textColor="@color/white"
-            android:textSize="17sp"
-            android:textStyle="bold" />
+            android:textSize="13sp"
+            android:textStyle="bold"
+            android:onClick="fruit1"/>
 
         <TextView
-
+            android:id="@+id/frut"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="1dp"
             android:layout_marginBottom="20dp"
+            android:onClick="fruit1"
             android:background="@drawable/degraded_2"
             android:text="@string/txv_product1"
             android:gravity="center"
             android:textColor="@color/white"
-            android:textSize="25sp"
+            android:textSize="20sp"
             android:textStyle="bold"  />
 
 
@@ -148,16 +98,16 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:cardCornerRadius="10dp"
-        android:paddingTop="3dp"
+        android:paddingTop="1dp"
         android:layout_weight="1"
-        android:layout_margin="5dp"
+        android:layout_margin="3dp"
         android:background="@drawable/degraded_2"
         app:cardBackgroundColor="@color/rosa">
 
         <TextView
 
 
-            android:layout_width="299dp"
+            android:layout_width="280dp"
             android:layout_height="match_parent"
             android:layout_gravity="right"
             android:layout_marginTop="36dp"
@@ -168,29 +118,30 @@
             android:paddingBottom="19dp"
             android:text="@string/txv_description2"
             android:textColor="@color/white"
-            android:textSize="17sp"
+            android:textSize="13sp"
             android:textStyle="bold" />
 
         <TextView
-
+            android:id="@+id/them"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="1dp"
             android:layout_marginBottom="20dp"
             android:background="@drawable/degraded_2"
             android:gravity="center"
+            android:onClick="theme"
             android:text="@string/txv_product2"
             android:textColor="@color/white"
-            android:textSize="25sp"
+            android:textSize="20sp"
             android:textStyle="bold" />
 
         <ImageView
             android:id="@+id/image2"
-            android:layout_width="104dp"
-            android:layout_height="112dp"
-            android:layout_gravity="bottom"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_marginTop="12dp"
+            android:layout_gravity="center_vertical"
             android:layout_marginBottom="1dp"
-            android:background="@drawable/degraded1"
             android:src="@drawable/theme" />
 
     </androidx.cardview.widget.CardView>
@@ -199,7 +150,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:cardCornerRadius="10dp"
-        android:paddingTop="3dp"
+        android:paddingTop="1dp"
         android:layout_weight="1"
         android:layout_margin="5dp"
         android:background="@drawable/degraded_2"
@@ -207,7 +158,7 @@
 
         <TextView
 
-            android:layout_width="299dp"
+            android:layout_width="280dp"
             android:layout_height="match_parent"
             android:layout_gravity="right"
             android:layout_marginTop="36dp"
@@ -217,29 +168,28 @@
             android:paddingBottom="19dp"
             android:text="@string/txv_description3"
             android:textColor="@color/white"
-            android:textSize="17sp"
+            android:textSize="13sp"
             android:textStyle="bold" />
 
         <TextView
-
+            android:id="@+id/favor"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="1dp"
             android:layout_marginBottom="20dp"
             android:background="@drawable/degraded_2"
             android:text="@string/txv_product3"
+            android:onClick="cake"
             android:gravity="center"
             android:textColor="@color/white"
-            android:textSize="25sp"
+            android:textSize="20sp"
             android:textStyle="bold" />
 
         <ImageView
             android:id="@+id/image3"
-            android:layout_width="104dp"
-            android:layout_height="108dp"
-            android:layout_gravity="bottom"
-            android:layout_marginVertical="2dp"
-            android:background="@drawable/degraded1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_vertical"
             android:src="@drawable/cake_favorito" />
 
     </androidx.cardview.widget.CardView>
@@ -248,18 +198,16 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:cardCornerRadius="10dp"
-        android:orientation="vertical"
         android:layout_margin="3dp"
-        android:layout_marginBottom="10dp"
         android:layout_weight="1"
         android:background="@drawable/degraded_2"
-        android:paddingTop="3dp"
+        android:paddingTop="1dp"
         android:paddingBottom="3dp"
         app:cardBackgroundColor="@color/rosa">
 
         <TextView
 
-            android:layout_width="302dp"
+            android:layout_width="280dp"
             android:layout_height="match_parent"
             android:layout_gravity="right"
             android:layout_marginTop="36dp"
@@ -270,28 +218,29 @@
             android:paddingBottom="19dp"
             android:text="@string/txv_description4"
             android:textColor="@color/white"
-            android:textSize="17sp"
+            android:textSize="13sp"
             android:textStyle="bold" />
 
         <TextView
-
+            android:id="@+id/cup1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="1dp"
             android:layout_marginBottom="20dp"
             android:background="@drawable/degraded_2"
             android:gravity="center"
+            android:onClick="cup"
             android:text="@string/txv_product4"
             android:textColor="@color/white"
-            android:textSize="25sp"
+            android:textSize="20sp"
             android:textStyle="bold" />
 
         <ImageView
             android:id="@+id/image4"
-            android:layout_width="104dp"
-            android:layout_height="112dp"
-            android:layout_gravity="bottom"
-            android:background="@drawable/degraded1"
+            android:layout_width="100dp"
+            android:layout_height="115dp"
+            android:layout_marginTop="12dp"
+            android:layout_gravity="center_vertical"
             android:src="@drawable/cupcakes" />
 
     </androidx.cardview.widget.CardView>

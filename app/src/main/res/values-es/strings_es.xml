@@ -10,7 +10,7 @@
     <string name="txt_email">Correo</string>
     <string name="txt_password">Contraseña</string>
     <string name="txt_login">Login</string>
-    <string name="txt_register">Register</string>
+    <string name="txt_register">Registrarse</string>
 
 
 
@@ -20,6 +20,8 @@
     <string name="txv_product2">Ponque Tematico</string>
     <string name="txv_product3">Favoritos</string>
     <string name="txv_product4">Cupcakes</string>
+    <string name="txv_logout">Cerrar Sesión</string>
+    <string name="txv_search">Buscar</string>
 
     <string name="txv_description1">Afrutados y jugosos ponques; rellenos de fruta,para obtener el mejor resultado nuestras recetas se elaboran con esencias y productos frescos y naturales</string>
     <string name="txv_description2">Hacemos realidad su idea.Disfrute  de su creatividad,le damos sabor con coberturas cremosas y dulces </string>
