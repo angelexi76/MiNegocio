@@ -18,8 +18,8 @@
 
 
     <item
-        android:id="@+id/action_search"
-        android:title="@string/txv_search"
+        android:id="@+id/txv_action_search"
+        android:title="@string/txv_action_search"
         android:icon="@android:drawable/ic_menu_search"
         app:showAsAction="always"/>
 
@@ -29,7 +29,7 @@
     <item android:title="@string/txv_product2" />
     <item android:title="@string/txv_product3" />
     <item android:title="@string/txv_product4" />
-    <item android:title="@string/txv_logout"
+    <item android:title="@string/txv_action_logout"
         app:showAsAction="always"
         />
 

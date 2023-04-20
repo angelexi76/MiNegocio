@@ -13,7 +13,7 @@
         android:layout_width="match_parent"
         android:layout_height="?actionBarSize"
         android:text="@string/txv_text_1"
-        app:titleTextColor="@color/design_default_color_primary_dark"
+        app:titleTextColor="@color/white"
         android:elevation="3dp"
         android:background="@drawable/degraded_2"
         android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
@@ -107,18 +107,19 @@
             android:background="@drawable/boton"
             android:orientation="horizontal">
 
-
             <Button
-                android:id="@+id/btnsum"
+                android:id="@+id/btnrest"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:layout_marginStart="10dp"
-                android:backgroundTint="@null"
+                android:elevation="3dp"
+                android:backgroundTint="@color/material_500"
                 android:background="@drawable/boton"
+                android:textColor="@color/white"
+                android:onClick="subtract1"
                 android:padding="1dp"
-                android:onClick="add1"
-                android:text="+"
+                android:text="-"
                 android:textSize="25dp" />
+
 
 
             <TextView
@@ -131,19 +132,23 @@
                 android:padding="1dp"
                 android:text="0"
                 android:onClick="textcontador"
-                android:textColor="@color/black"
+                android:textColor="@color/black"textcontador
                 android:textSize="25sp"
                 android:textStyle="bold" />
 
+
+
             <Button
-                android:id="@+id/btnrest"
+                android:id="@+id/btnsum"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:elevation="3dp"
+                android:layout_marginStart="10dp"
+                android:backgroundTint="@color/material_500"
                 android:background="@drawable/boton"
-                android:onClick="subtract1"
                 android:padding="1dp"
-                android:text="-"
+                android:onClick="add1"
+                android:textColor="@color/white"
+                android:text="+"
                 android:textSize="25dp" />
 
 

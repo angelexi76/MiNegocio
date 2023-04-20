@@ -37,7 +37,7 @@
             android:orientation="vertical"
             android:padding="15dp"
             app:cardBackgroundColor="@color/rosi"
-            app:cardCornerRadius="30dp"
+            app:cardCornerRadius="20dp"
             app:cardElevation="@dimen/cardview_compat_inset_shadow"
             app:backgroundTint="@null">
 
@@ -119,6 +119,8 @@
                     android:layout_height="50dp"
                     android:layout_marginStart="10dp"
                     android:background="@drawable/boton"
+                    android:textColor="@color/white"
+                    android:backgroundTint="@color/material_500"
                     android:onClick="sum3"
                     android:padding="1dp"
                     android:text="+"
@@ -144,8 +146,10 @@
                     android:layout_width="50dp"
                     android:layout_height="50dp"
                     android:background="@drawable/boton"
+                    android:backgroundTint="@color/material_500"
                     android:padding="1dp"
                     android:onClick="rest3"
+                    android:textColor="@color/white"
                     android:text="-"
                     android:textSize="25dp" />
 

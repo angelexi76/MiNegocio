@@ -18,8 +18,8 @@
     <string name="txv_product2">Theme Cake</string>
     <string name="txv_product3">Favorite Cake</string>
     <string name="txv_product4">Cupcakes</string>
-    <string name="txv_logout">log out</string>
-    <string name="txv_search">Search</string>
+    <string name="txv_action_logout">log out</string>
+    <string name="txv_action_search">Search</string>
 
     <string name="txv_description1">Fruity and juicy cakes; filled with fruit, to obtain the best result our recipes are made with essences and fresh and natural products</string>
     <string name="txv_description2">We make your idea come true.Enjoy your creativity, we give it flavor with creamy and sweet toppings </string>
