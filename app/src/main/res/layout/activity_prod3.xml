@@ -19,11 +19,12 @@
             android:id="@+id/my_barra"
             android:layout_width="match_parent"
             android:layout_height="?actionBarSize"
-            app:titleTextColor="@color/design_default_color_primary_dark"
+            app:titleTextColor="@color/white"
             android:elevation="3dp"
             android:background="@drawable/degraded_2"
             android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
             app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+            app:title="@string/txv_text_1"
             app:backgroundTint="@null" />
 
 
@@ -156,7 +157,17 @@
 
             </LinearLayout>
 
-
+            <Button
+                android:id="@+id/btnBuy3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|center"
+                android:layout_margin="6dp"
+                android:background="@drawable/boton"
+                android:backgroundTint="@color/material_500"
+                android:onClick="buttonBuy"
+                android:text="@string/buy"
+                android:textSize="25dp" />
         </androidx.cardview.widget.CardView>
     </LinearLayout>
 </LinearLayout>

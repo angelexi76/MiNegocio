@@ -1,74 +1,88 @@
 package com.angelasanchez.minegocio
 
+import android.annotation.SuppressLint
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
 import android.view.View
-import android.view.View.OnClickListener
 import android.widget.Button
 import android.widget.TextView
 import android.widget.Toast
-import org.w3c.dom.Text
+import androidx.appcompat.app.AppCompatActivity
+import com.angelasanchez.minegocio.R.*
 
 
 //private operator fun Int.plus(s: String) {
 
-//}//
-
+//}
 
 class Prod1Activity : AppCompatActivity() {
 
-    private var contador: Int = 0
-    private lateinit var text: View
-    private lateinit var btnsum: Button
-    private lateinit var btnrest: Button
+    //button buy
+    private lateinit var btnBuy1:Button
+
+    //variables contador
+    var contador: Int =0
+    private lateinit var textBox:TextView
+    private lateinit var btn_sum:Button
+    private lateinit var btn_rest:Button
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        setContentView(R.layout.activity_prod1)
+        setContentView(layout.activity_prod1)
+        setSupportActionBar(findViewById(id.my_barra))
 
-        setSupportActionBar(findViewById(R.id.my_barra))
+        //button buy
+          btnBuy1 = findViewById<Button>(id.btnBuy1)
 
-        btnsum = findViewById<Button>(R.id.btnsum)
-        btnrest = findViewById<Button>(R.id.btnrest)
-        text=findViewById<Button>(R.id.text)
+//contador
 
+          btn_sum = findViewById<Button>(id.btn_sum)
 
+          btn_rest = findViewById<Button>(id.btn_rest)
 
-
-
-
-    fun add1(){
-        btnsum.setOnClickListener {
-        }
-        contador++
-        btnsum.text=contador.toString(contador)
+          //textBox=findViewById<TextView>(id.textBox)
 
     }
+
+
+
+    fun add1(view: View){
+        contador ++
+
+        btn_sum.setOnClickListener{
+            textBox.text.toString()
+        }
+    }
+
 
      fun subtract1(view: View) {
-         btnsum.setOnClickListener {
-         }
          contador--
-         btnrest.text=contador.toString(contador)
-}
+         btn_rest.setOnClickListener{
+
+         }
+         textBox.text.toString()
+     }
+   //la variable contador es un entero,se agrega tostring para convertirla en texto al actualizar el   textbox q es el textview
 
 
-    fun textcontador(){
-        text.setOnClickListener {
 
+
+
+
+
+        @SuppressLint("SuspiciousIndentation")
+        fun buttonBuy(view: View){
+
+            btnBuy1.setOnClickListener {
+
+            }
+            val buys = Intent(this, BuyActivity1::class.java)
+                 startActivity(buys)
         }
-
-
-    }
-
-    }
-
-
 
 
 
@@ -83,19 +97,21 @@ class Prod1Activity : AppCompatActivity() {
         }
 //when evalua si el item q se pulso coincide con el  R.id.txv_action_search    si es true creamos la funcion anonima  -> q defina la accion a realizar
          override fun onOptionsItemSelected(item: MenuItem): Boolean =when(item.itemId) {
-             R.id.txv_action_search-> {
-                 Toast.makeText(this,R.string.txv_action_search,Toast.LENGTH_LONG).show()
+             id.txv_action_search-> {
+                 Toast.makeText(this, string.txv_action_search,Toast.LENGTH_LONG).show()
                  true
 
              }
 
-              R.id.txv_action_search-> {
-                    Toast.makeText(this, R.string.txv_action_logout, Toast.LENGTH_LONG).show()
+              id.tvx_action_logout-> {
+                    Toast.makeText(this, string.txv_action_logout, Toast.LENGTH_LONG).show()
                     true
                 }
                     else -> {
                         super.onOptionsItemSelected(item)
               }
          }
+
+
 
 }

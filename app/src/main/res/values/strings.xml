@@ -26,9 +26,13 @@
     <string name="txv_description1">Fruity and juicy cakes; filled with fruit, to obtain the best result our recipes are made with essences and fresh and natural products</string>
     <string name="txv_description2">We make your idea come true.Enjoy your creativity, we give it flavor with creamy and sweet toppings </string>
     <string name="txv_description3">The favorite and traditional cakes of various colors, very decorative and with special toppings to give shape to your ideas.
-You also find cupcakes accompanied a nice and personalized packaging, assemble it to your liking</string>
+</string>
     <string name="txv_description4">Cupcakes are the star of confectionery,Ideal for the most special days of the year, the variety that we present here is wide and tempting</string>
     <string name="txv_price1">Price:$1234</string>
+    <string name="buy">Buy</string>
+    <string name="costo_envio">Costo Envio</string>
+    <string name="sub_total">sub total</string>
+    <string name="total">total</string>
 
 
 </resources>

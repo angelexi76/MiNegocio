@@ -22,7 +22,7 @@ class RegisterActivity : AppCompatActivity() {
         password=findViewById<EditText>(R.id.password)
 
     }
-        fun registro (btn2:View){
+        fun register (btn2:View){
             if (name!!.text.toString()=="user"){
             }
                 if (email!!.text.toString()=="user@"){

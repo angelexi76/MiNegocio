@@ -3,15 +3,18 @@ package com.angelasanchez.minegocio
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.Menu
+import android.view.MenuItem
 import android.view.View
 import android.widget.Button
 import android.widget.TextView
+import android.widget.Toast
 import com.angelasanchez.minegocio.R.*
-import com.angelasanchez.minegocio.R.id.frut
+import com.angelasanchez.minegocio.R.id.*
 
 class ProdActivity : AppCompatActivity() {
 
-    private lateinit var frut:TextView
+    private lateinit var fruit:TextView
     private lateinit var them:TextView
     private lateinit var favor:TextView
     private lateinit var cup1:TextView
@@ -20,9 +23,10 @@ class ProdActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(layout.activity_prod)
+        setSupportActionBar(findViewById(my_barra))
 
 
-        frut= findViewById<TextView>(id.frut)
+        fruit = findViewById<TextView>( id. fruit)
         them = findViewById<TextView>(id.them)
         favor = findViewById<TextView>(id.favor)
         cup1 = findViewById<TextView>(id.cup1)
@@ -32,11 +36,11 @@ class ProdActivity : AppCompatActivity() {
 
     fun fruit1(View: View) {
 
-        frut.setOnClickListener {
+        fruit.setOnClickListener {
 
         }
-        val frut1 = Intent(this, Prod1Activity::class.java)
-        startActivity(frut1)
+        val fruit1 = Intent(this, Prod1Activity::class.java)
+        startActivity(fruit1)
 
     }
     fun theme(View: View) {
@@ -67,5 +71,31 @@ class ProdActivity : AppCompatActivity() {
             val cups = Intent(this, Prod4Activity::class.java)
             startActivity(cups)
         }
+
+
+
+
+
+
+    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
+        menuInflater.inflate(R.menu.menu, menu)
+        return super.onCreateOptionsMenu(menu)
+    }
+    //when evalua si el item q se pulso coincide con el  R.id.txv_action_search    si es true creamos la funcion anonima  -> q defina la accion a realizar
+    override fun onOptionsItemSelected(item: MenuItem): Boolean =when(item.itemId) {
+        txv_action_search -> {
+            Toast.makeText(this,R.string.txv_action_search, Toast.LENGTH_LONG).show()
+            true
+
+        }
+
+        tvx_action_logout -> {
+            Toast.makeText(this, R.string.txv_action_logout, Toast.LENGTH_LONG).show()
+            true
+        }
+        else -> {
+            super.onOptionsItemSelected(item)
+        }
+    }
     }
 

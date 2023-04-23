@@ -36,7 +36,6 @@ class LoginActivity : AppCompatActivity() {
 
 
 
-
         if (email!!.text.toString() == "user@" && password!!.text.toString() == "1234") {
             val alert=AlertDialog.Builder(this).setTitle("WELCOME")
                 .setMessage("Login").create().show()
@@ -48,9 +47,9 @@ class LoginActivity : AppCompatActivity() {
                         .setMessage("user or password are wrong").create().show()
                 }
 
-       val entrar = Intent(this,ProdActivity::class.java)
+                       val init = Intent(this,ProdActivity::class.java)
 
-       startActivity(entrar)
+                       startActivity(init)
 
 
 

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="buy">Buy</string>
+    <string name="costo_envio">Costo Envio</string>
+    <string name="sub_total">sub total</string>
+    <string name="total">total</string>
+</resources>

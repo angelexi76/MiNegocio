@@ -121,7 +121,7 @@
             android:textSize="25dp"
             android:textColor="@color/white"
             android:background="@drawable/boton"
-            android:onClick="registro"
+            android:onClick="register"
             android:text="@string/txt_register" />
 
 </LinearLayout>

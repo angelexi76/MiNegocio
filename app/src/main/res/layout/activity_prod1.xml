@@ -12,12 +12,12 @@
         android:id="@+id/my_barra"
         android:layout_width="match_parent"
         android:layout_height="?actionBarSize"
-        android:text="@string/txv_text_1"
         app:titleTextColor="@color/white"
         android:elevation="3dp"
         android:background="@drawable/degraded_2"
         android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
         app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:title="@string/txv_text_1"
         app:backgroundTint="@null" />
 
 
@@ -108,10 +108,11 @@
             android:orientation="horizontal">
 
             <Button
-                android:id="@+id/btnrest"
+                android:id="@+id/btn_rest"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:elevation="3dp"
+                android:layout_marginStart="10dp"
                 android:backgroundTint="@color/material_500"
                 android:background="@drawable/boton"
                 android:textColor="@color/white"
@@ -124,7 +125,7 @@
 
             <TextView
 
-                android:id="@+id/text"
+                android:id="@+id/textBox"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
                 android:background="@drawable/boton"
@@ -132,17 +133,16 @@
                 android:padding="1dp"
                 android:text="0"
                 android:onClick="textcontador"
-                android:textColor="@color/black"textcontador
+                android:textColor="@color/black"
                 android:textSize="25sp"
                 android:textStyle="bold" />
 
 
 
             <Button
-                android:id="@+id/btnsum"
+                android:id="@+id/btn_sum"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:layout_marginStart="10dp"
                 android:backgroundTint="@color/material_500"
                 android:background="@drawable/boton"
                 android:padding="1dp"
@@ -153,6 +153,18 @@
 
 
         </LinearLayout>
+
+        <Button
+            android:id="@+id/btnBuy1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center"
+            android:layout_margin="6dp"
+            android:background="@drawable/boton"
+            android:backgroundTint="@color/material_500"
+            android:onClick="buttonBuy"
+            android:text="@string/buy"
+            android:textSize="25dp" />
 
 
 
