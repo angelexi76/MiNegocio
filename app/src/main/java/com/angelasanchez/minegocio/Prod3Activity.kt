@@ -11,7 +11,7 @@ import android.widget.Button
 import android.widget.Toast
 
 class Prod3Activity : AppCompatActivity() {
-    private lateinit var btnBuy3:Button
+    private lateinit var btnBuy1:Button
 
     private lateinit var button2: Button
     private lateinit var button3: Button
@@ -22,7 +22,7 @@ class Prod3Activity : AppCompatActivity() {
         setSupportActionBar(findViewById(R.id.my_barra))
 
 
-        btnBuy3 = findViewById<Button>(R.id.btnBuy3)
+        btnBuy1 = findViewById<Button>(R.id.btnBuy1)
 
         button2 = findViewById<Button>(R.id.button2)
         button3 = findViewById<Button>(R.id.button3)
@@ -40,7 +40,7 @@ class Prod3Activity : AppCompatActivity() {
     @SuppressLint("SuspiciousIndentation")
     fun buttonBuy(view: View){
 
-        btnBuy3.setOnClickListener {
+        btnBuy1.setOnClickListener {
 
         }
         val buys = Intent(this, BuyActivity1::class.java)

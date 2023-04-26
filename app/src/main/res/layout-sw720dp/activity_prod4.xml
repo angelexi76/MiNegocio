@@ -155,11 +155,11 @@
         </LinearLayout>
 
         <Button
-            android:id="@+id/btnBuy1"
+            android:id="@+id/btnBuy4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="bottom|center"
-            android:layout_marginBottom="10dp"
+            android:layout_margin="6dp"
             android:background="@drawable/boton"
             android:backgroundTint="@color/material_500"
             android:onClick="buttonBuy"

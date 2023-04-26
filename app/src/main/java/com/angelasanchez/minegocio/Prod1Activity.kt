@@ -51,20 +51,24 @@ class Prod1Activity : AppCompatActivity() {
 
 
     fun add1(view: View){
-        contador ++
+
 
         btn_sum.setOnClickListener{
+            contador ++
             textBox.text.toString()
         }
+
     }
 
 
      fun subtract1(view: View) {
-         contador--
+
          btn_rest.setOnClickListener{
+             contador--
+             textBox.text.toString()
 
          }
-         textBox.text.toString()
+
      }
    //la variable contador es un entero,se agrega tostring para convertirla en texto al actualizar el   textbox q es el textview
 

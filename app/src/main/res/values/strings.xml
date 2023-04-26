@@ -23,16 +23,24 @@
     <string name="txv_action_search">Search</string>
 
 
-    <string name="txv_description1">Fruity and juicy cakes; filled with fruit, to obtain the best result our recipes are made with essences and fresh and natural products</string>
-    <string name="txv_description2">We make your idea come true.Enjoy your creativity, we give it flavor with creamy and sweet toppings </string>
-    <string name="txv_description3">The favorite and traditional cakes of various colors, very decorative and with special toppings to give shape to your ideas.
-</string>
-    <string name="txv_description4">Cupcakes are the star of confectionery,Ideal for the most special days of the year, the variety that we present here is wide and tempting</string>
+    <string name="txv_description1">Fruity and juicy cakes filled with fruit,apples,strawberries,and more; To obtain the best result our recipes are made with essences and fresh and natural products</string>
+    <string name="txv_description2">Delicious,fluffy,fun and creative ideas, we give it flavor with creamy and sweet toppings </string>
+    <string name="txv_description3">Very decorative and with special toppings to shape your classic style cakes</string>
+   <string name="txv_description4">Cupcakes are the star of confectionery,Ideal for the most special days of the year.The variety that we present here is wide and tempting</string>
+
+    <string name="txv_description_fruit">Fruity and juicy cakes filled with fruit,apples,strawberries,and more</string>
+    <string name="txv_description_theme">Delicious,fluffy,fun and creative ideas.<br>Enjoy flavored,sweet and original creams</br></string>
+    <string name="txv_description_favororite">The favorite and traditional cakes of various colors.Ingredients such as chocolate, vanilla and fruit.</string>
+    <string name="txv_description_cup">The variety that we present here is wide, tempting and sophisticated cupcakes for all occasions</string>
+
+
+
+
     <string name="txv_price1">Price:$1234</string>
     <string name="buy">Buy</string>
-    <string name="costo_envio">Costo Envio</string>
-    <string name="sub_total">sub total</string>
-    <string name="total">total</string>
+    <string name="cost">Shipping cost</string>
+    <string name="sub_total">Subtotal</string>
+    <string name="total">Total</string>
 
 
 </resources>

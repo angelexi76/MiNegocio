@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".BuyActivity1"
+        >
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/my_barra"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        app:titleTextColor="@color/white"
+        android:elevation="3dp"
+        android:background="@drawable/degraded_2"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:title="@string/txv_text_1"
+        app:backgroundTint="@null" />
+
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragment_container_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:name="com.angelasanchez.minegocio.BuyFragment"
+        tools:layout="@layout/fragment_buy" />
+
+    </LinearLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
+</ScrollView>

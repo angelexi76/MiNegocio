@@ -26,7 +26,7 @@ class ProdActivity : AppCompatActivity() {
         setSupportActionBar(findViewById(my_barra))
 
 
-        fruit = findViewById<TextView>( id. fruit)
+        fruit = findViewById<TextView>( id.fruit)
         them = findViewById<TextView>(id.them)
         favor = findViewById<TextView>(id.favor)
         cup1 = findViewById<TextView>(id.cup1)

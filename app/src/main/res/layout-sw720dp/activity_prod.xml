@@ -34,9 +34,9 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             app:cardCornerRadius="10dp"
-            android:paddingTop="1dp"
+            android:paddingTop="3dp"
             android:layout_weight="1"
-            android:layout_margin="6dp"
+            android:layout_margin="10dp"
             android:background="@drawable/degraded_2"
             app:cardBackgroundColor="@color/rosa">
 
@@ -51,34 +51,32 @@
                 android:onClick="fruit1"
                 android:text="@string/txv_product1"
                 android:textColor="@color/white"
-                android:textSize="35sp"
+                android:textSize="80sp"
                 android:textStyle="bold" />
 
 
-
-                <TextView
-                    android:layout_width="280dp"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="left"
-                    android:layout_marginBottom="5dp"
-                    android:layout_marginTop="50dp"
-                    android:background="@drawable/degraded1"
-                    android:paddingStart="9dp"
-                    android:paddingTop="9dp"
-                    android:paddingBottom="19dp"
-                    android:text="@string/txv_description_fruit"
-                    android:textColor="@color/white"
-                    android:textSize="25sp"
-                    android:textStyle="bold" />
-
+            <TextView
+                android:layout_width="650dp"
+                android:layout_height="260dp"
+                android:layout_gravity="left"
+                android:layout_marginTop="125dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/degraded1"
+                android:paddingStart="20dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="19dp"
+                android:text="@string/txv_description_fruit"
+                android:textColor="@color/white"
+                android:textSize="50sp"
+                android:textStyle="bold" />
 
             <ImageView
                 android:id="@+id/image1"
-                android:layout_width="100dp"
-                android:layout_height="138dp"
+                android:layout_width="270dp"
+                android:layout_height="200dp"
                 android:layout_gravity="top|end"
-                android:layout_marginTop="55dp"
-                android:layout_marginEnd="10dp"
+                android:layout_marginTop="160dp"
+                android:layout_marginEnd="20dp"
                 android:elevation="3dp"
                 android:src="@drawable/cake1" />
 
@@ -88,14 +86,14 @@
                 android:layout_height="match_parent"
                 android:layout_gravity="bottom|end"
                 android:layout_marginEnd="6dp"
-                android:layout_marginTop="3dp"
+                android:layout_marginTop="30dp"
                 android:layout_marginBottom="3dp"
                 android:onClick="fruit1"
                 android:padding="2dp"
                 android:paddingBottom="6dp"
                 android:text=">>>"
                 android:textColor="@color/material_500"
-                android:textSize="25dp" />
+                android:textSize="40dp" />
 
         </androidx.cardview.widget.CardView>
 
@@ -105,7 +103,7 @@
             app:cardCornerRadius="10dp"
             android:paddingTop="1dp"
             android:layout_weight="1"
-            android:layout_margin="6dp"
+            android:layout_margin="10dp"
             android:background="@drawable/degraded_2"
             app:cardBackgroundColor="@color/rosa">
 
@@ -121,30 +119,30 @@
                 android:onClick="fruit1"
                 android:text="@string/txv_product2"
                 android:textColor="@color/white"
-                android:textSize="35sp"
+                android:textSize="80sp"
                 android:textStyle="bold" />
 
             <TextView
-                android:layout_width="280dp"
-                android:layout_height="wrap_content"
+                android:layout_width="650dp"
+                android:layout_height="250dp"
                 android:layout_gravity="left"
-                android:layout_marginTop="50dp"
+                android:layout_marginTop="140dp"
                 android:layout_marginBottom="1dp"
                 android:background="@drawable/degraded1"
                 android:paddingStart="9dp"
                 android:paddingBottom="19dp"
                 android:text="@string/txv_description_theme"
                 android:textColor="@color/white"
-                android:textSize="25sp"
+                android:textSize="50sp"
                 android:textStyle="bold" />
 
 
             <ImageView
                 android:id="@+id/image2"
-                android:layout_width="94dp"
-                android:layout_height="102dp"
+                android:layout_width="270dp"
+                android:layout_height="200dp"
                 android:layout_gravity="top|end"
-                android:layout_marginTop="65dp"
+                android:layout_marginTop="160dp"
                 android:layout_marginEnd="10dp"
                 android:elevation="3dp"
                 android:src="@drawable/tematico3" />
@@ -155,14 +153,14 @@
                 android:layout_height="match_parent"
                 android:layout_gravity="bottom|end"
                 android:layout_marginEnd="6dp"
-                android:layout_marginTop="3dp"
+                android:layout_marginTop="30dp"
                 android:layout_marginBottom="3dp"
                 android:onClick="theme"
                 android:padding="2dp"
                 android:paddingBottom="6dp"
                 android:text=">>>"
                 android:textColor="@color/material_500"
-                android:textSize="25dp"
+                android:textSize="40dp"
                 />
 
         </androidx.cardview.widget.CardView>
@@ -174,23 +172,23 @@
                         app:cardCornerRadius="10dp"
                         android:paddingTop="1dp"
                         android:layout_weight="1"
-                        android:layout_margin="6dp"
+                        android:layout_margin="10dp"
                         android:background="@drawable/degraded_2"
                         app:cardBackgroundColor="@color/rosa">
 
             <TextView
 
-                android:layout_width="280dp"
-                android:layout_height="wrap_content"
+                android:layout_width="650dp"
+                android:layout_height="260dp"
                 android:layout_gravity="left"
-                android:layout_marginTop="40dp"
+                android:layout_marginTop="130dp"
                 android:background="@drawable/degraded1"
                 android:paddingStart="9dp"
                 android:paddingTop="19dp"
                 android:paddingBottom="19dp"
                 android:text="@string/txv_description"
                 android:textColor="@color/white"
-                android:textSize="25sp"
+                android:textSize="50sp"
                 android:textStyle="bold" />
 
             <TextView
@@ -204,15 +202,15 @@
             android:onClick="cake"
             android:gravity="center"
             android:textColor="@color/white"
-            android:textSize="35sp"
+            android:textSize="80sp"
             android:textStyle="bold" />
 
             <ImageView
                 android:id="@+id/image3"
-                android:layout_width="91dp"
-                android:layout_height="108dp"
+                android:layout_width="270dp"
+                android:layout_height="200dp"
                 android:layout_gravity="top|end"
-                android:layout_marginTop="55dp"
+                android:layout_marginTop="150dp"
                 android:layout_marginEnd="10dp"
                 android:elevation="3dp"
                 android:src="@drawable/cake_favorito" />
@@ -222,14 +220,14 @@
                 android:layout_height="match_parent"
                 android:layout_gravity="bottom|end"
                 android:layout_marginEnd="6dp"
-                android:layout_marginTop="3dp"
+                android:layout_marginTop="30dp"
                 android:layout_marginBottom="3dp"
                 android:onClick="cake"
                 android:padding="2dp"
                 android:paddingBottom="6dp"
                 android:text=">>>"
                 android:textColor="@color/material_500"
-                android:textSize="25dp"
+                android:textSize="40dp"
                 />
 
         </androidx.cardview.widget.CardView>
@@ -238,7 +236,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:cardCornerRadius="10dp"
-        android:layout_margin="6dp"
+        android:layout_margin="10dp"
         android:layout_weight="1"
         android:background="@drawable/degraded_2"
         android:paddingTop="1dp"
@@ -249,16 +247,17 @@
 
                 <TextView
 
-                    android:layout_width="280dp"
-                    android:layout_height="wrap_content"
+                    android:layout_width="650dp"
+                    android:layout_height="270dp"
                     android:layout_gravity="left"
                     android:layout_marginBottom="2dp"
                     android:background="@drawable/degraded1"
                     android:paddingStart="9dp"
-                    android:paddingTop="60dp"
+                    android:paddingTop="20dp"
+                    android:layout_marginTop="120dp"
                     android:text="@string/txv_description_cup"
                     android:textColor="@color/white"
-                    android:textSize="25sp"
+                    android:textSize="50sp"
                     android:textStyle="bold" />
 
 
@@ -274,15 +273,15 @@
             android:onClick="cup"
             android:text="@string/txv_product4"
             android:textColor="@color/white"
-            android:textSize="35sp"
+            android:textSize="80sp"
             android:textStyle="bold" />
 
         <ImageView
             android:id="@+id/image4"
-            android:layout_width="92dp"
-            android:layout_height="131dp"
+            android:layout_width="270dp"
+            android:layout_height="200dp"
             android:layout_gravity="top|end"
-            android:layout_marginTop="40dp"
+            android:layout_marginTop="140dp"
             android:layout_marginEnd="9dp"
             android:elevation="3dp"
             android:src="@drawable/cupcakes" />
@@ -292,14 +291,14 @@
             android:layout_height="match_parent"
             android:layout_gravity="bottom|end"
             android:layout_marginEnd="6dp"
-            android:layout_marginTop="3dp"
+            android:layout_marginTop="30dp"
             android:layout_marginBottom="3dp"
             android:onClick="cup"
             android:padding="2dp"
             android:paddingBottom="6dp"
             android:text=">>>"
             android:textColor="@color/material_500"
-            android:textSize="25dp"
+            android:textSize="40dp"
             />
         />
 

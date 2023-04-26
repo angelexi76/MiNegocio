@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".Prod3Activity">
+    android:layout_height="match_parent">
+
+
 
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@drawable/degraded1"
-        android:orientation="vertical">
-
-
+        android:orientation="vertical"
+        tools:context=".Prod1Activity">
 
         <androidx.appcompat.widget.Toolbar
             android:id="@+id/my_barra"
@@ -28,20 +29,20 @@
             app:backgroundTint="@null" />
 
 
-
-
         <androidx.cardview.widget.CardView
-            android:id="@+id/card3"
+            android:id="@+id/card"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_margin="10dp"
+            android:layout_height="804dp"
+            android:layout_margin="16dp"
+            android:layout_marginTop="20dp"
+            android:onClick="card"
             android:orientation="vertical"
+            android:outlineAmbientShadowColor="@color/black"
             android:padding="15dp"
-            app:cardBackgroundColor="@color/rosi"
+            app:backgroundTint="@null"
+            app:cardBackgroundColor="#B4FFC0CB"
             app:cardCornerRadius="20dp"
-            app:cardElevation="@dimen/cardview_compat_inset_shadow"
-            app:backgroundTint="@null">
-
+            app:cardElevation="@dimen/cardview_compat_inset_shadow">
 
 
             <TextView
@@ -49,57 +50,76 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
-                android:text="@string/txv_product3"
+                android:layout_marginTop="15dp"
+                android:layout_marginStart="30dp"
+                android:text="@string/txv_product1"
                 android:textColor="@color/white"
                 android:textSize="45sp"
                 android:textStyle="bold" />
 
-            <TextView
 
+            <ScrollView
                 android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="16dp">
+
+
+                    <TextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="250dp"
+                        android:background="@color/rosa"
+                        android:paddingStart="15dp"
+                        android:paddingTop="20dp"
+                        android:text="@string/txv_description2"
+                        android:textColor="@color/material_500"
+                        android:textSize="30sp"
+                        android:textStyle="italic" />
+                </LinearLayout>
+
+            </ScrollView>
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="155dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="50dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginBottom="150dp"
+                android:src="@drawable/cake2" />
+
+            <ImageView
+                android:layout_width="300dp"
                 android:layout_height="150dp"
-                android:layout_gravity="center"
-                android:layout_marginTop="45dp"
-                android:background="@color/rosa"
-                android:paddingStart="6dp"
-                android:paddingTop="6dp"
-                android:text="@string/txv_description3"
-                android:textColor="@color/material_500"
-                android:textSize="19sp"
-                android:textStyle="italic" />
-
-            <ImageView
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                android:layout_gravity="center"
-                android:layout_marginBottom="110dp"
-                android:src="@drawable/cup3" />
-
-            <ImageView
-                android:layout_width="100dp"
-                android:layout_height="100dp"
                 android:layout_marginStart="5dp"
                 android:layout_marginTop="80dp"
-                android:src="@drawable/caja1" />
-
+                android:src="@drawable/favorito2" />
 
             <ImageView
-                android:layout_width="100dp"
-                android:layout_height="100dp"
+                android:layout_width="300dp"
+                android:layout_height="150dp"
                 android:layout_gravity="end"
                 android:layout_marginTop="80dp"
-                android:layout_marginEnd="5dp"
-                android:src="@drawable/caja2" />
+                android:layout_marginEnd="15dp"
+                android:src="@drawable/cake1" />
+
 
             <TextView
 
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="6dp"
-                android:layout_marginTop="555dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="550dp"
+                android:paddingStart="15dp"
                 android:text="@string/txv_price1"
                 android:textColor="@color/material_500"
-                android:textSize="20sp"
+                android:textSize="30sp"
                 android:textStyle="bold" />
 
 
@@ -108,51 +128,52 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="end"
                 android:layout_marginTop="600dp"
-                android:layout_marginEnd="6dp"
+                android:layout_marginEnd="15dp"
                 android:background="@drawable/boton"
                 android:backgroundTint="@color/white"
                 android:orientation="horizontal">
 
-
                 <Button
-                    android:id="@+id/button2"
+                    android:id="@+id/btn_rest"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
                     android:layout_marginStart="10dp"
                     android:background="@drawable/boton"
-                    android:textColor="@color/white"
                     android:backgroundTint="@color/material_500"
-                    android:onClick="sum3"
+                    android:elevation="3dp"
+                    android:onClick="subtract1"
                     android:padding="1dp"
-                    android:text="+"
-                    android:textSize="25dp" />
+                    android:text="-"
+                    android:textColor="@color/white"
+                    android:textSize="30dp" />
 
 
                 <TextView
 
-                    android:id="@+id/textView"
+                    android:id="@+id/textBox"
                     android:layout_width="40dp"
                     android:layout_height="40dp"
-                    android:text="0"
-                    android:padding="1dp"
-                    android:gravity="center"
-                    android:onClick="text3"
                     android:background="@drawable/boton"
+                    android:gravity="center"
+                    android:onClick="textcontador"
+                    android:padding="1dp"
+                    android:text="0"
                     android:textColor="@color/black"
                     android:textSize="25sp"
                     android:textStyle="bold" />
 
+
                 <Button
-                    android:id="@+id/button3"
+                    android:id="@+id/btn_sum"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
                     android:background="@drawable/boton"
                     android:backgroundTint="@color/material_500"
+                    android:onClick="add1"
                     android:padding="1dp"
-                    android:onClick="rest3"
+                    android:text="+"
                     android:textColor="@color/white"
-                    android:text="-"
-                    android:textSize="25dp" />
+                    android:textSize="30dp" />
 
 
             </LinearLayout>
@@ -163,13 +184,18 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="bottom|center"
                 android:layout_margin="6dp"
+                android:layout_marginBottom="30dp"
                 android:background="@drawable/boton"
                 android:backgroundTint="@color/material_500"
                 android:onClick="buttonBuy"
                 android:text="@string/buy"
-                android:textSize="25dp" />
+                android:textSize="30dp" />
+
+
         </androidx.cardview.widget.CardView>
+
+
+
     </LinearLayout>
-</LinearLayout>
 
-
+</ScrollView>

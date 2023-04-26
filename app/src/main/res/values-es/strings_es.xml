@@ -17,18 +17,32 @@
 
     <string name="txv_text_1">MAFE</string>
     <string name="txv_text_2">Pasteleria Artesanal</string>
+
     <string name="txv_product1">Ponque de frutas</string>
     <string name="txv_product2">Ponque Tematico</string>
     <string name="txv_product3">Favoritos</string>
     <string name="txv_product4">Cupcakes</string>
+
     <string name="txv_action_logout">Cerrar Sesión</string>
     <string name="txv_action_search">Buscar</string>
 
-    <string name="txv_description1">Afrutados y jugosos ponques; rellenos de fruta,para obtener el mejor resultado nuestras recetas se elaboran con esencias y productos frescos y naturales</string>
-    <string name="txv_description2">Hacemos realidad su idea.Disfrute  de su creatividad,le damos sabor con coberturas cremosas y dulces </string>
-    <string name="txv_description3">Los favoritos y tradicionales de varios colores muy decorativos,y coberturas especiales para dar forma a sus ideas</string>
-    <string name="txv_description4">Ideales para los dias más especiales del año,la variedad que aqui presentamos es amplia y tentadora</string>
-    <string name="txv_price1">Precio:$1234</string>
+    <string name="txv_description1">Tortas afrutadas y jugosas llenas de frutas, manzanas, fresas y más,<br> Para obtener el mejor resultado nuestras recetas están elaboradas con esencias</br> y productos frescos y naturales. </string>
+    <string name="txv_description2">Ideas deliciosas, esponjosas, divertidas y creativas, le damos sabor con toppings cremosos y dulces </string>
+    <string name="txv_description3">Muy decorativas y con toppings especiales para dar forma a tus tortas de estilo clasico</string>
+    <string name="txv_description4">Los cupcakes son la estrella de la repostería, ideales para los días más especiales del año. La variedad que aquí presentamos es amplia y tentadora</string>
+
+
+    <string name="txv_description_fruit">Tortas afrutadas y jugosas llenas de frutas, manzanas, fresas y más</string>
+    <string name="txv_description_theme">Ideas deliciosas,esponjosas,divertidas y creativas.<br>Disfruta de cremas con sabor,dulces y originales</br></string>
+    <string name="txv_description_favororite">Los pasteles favoritos y tradicionales de varios colores. Ingredientes como chocolate, vainilla y frutas.</string>
+    <string name="txv_description_cup"> La variedad que aquí presentamos es amplia,tentadora y sofisticada cupcakes para todas las ocasiones</string>
+
+
+    <string name="txv_price1">Price:$1234</string>
+    <string name="buy">Comprar</string>
+    <string name="cost">Costo envio</string>
+    <string name="sub_total">Sub total</string>
+    <string name="total">Total</string>
 
 
 </resources>

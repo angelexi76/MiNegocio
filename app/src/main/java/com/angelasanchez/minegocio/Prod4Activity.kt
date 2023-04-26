@@ -11,13 +11,13 @@ import android.widget.Button
 import android.widget.Toast
 
 class Prod4Activity : AppCompatActivity() {
-    private lateinit var btnBuy4: Button
+    private lateinit var btnBuy1: Button
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_prod4)
         setSupportActionBar(findViewById(R.id.my_barra))
 
-        btnBuy4 = findViewById<Button>(R.id.btnBuy4)
+        btnBuy1 = findViewById<Button>(R.id.btnBuy1)
     }
 
 
@@ -25,7 +25,7 @@ class Prod4Activity : AppCompatActivity() {
     @SuppressLint("SuspiciousIndentation")
     fun buttonBuy(view: View){
 
-        btnBuy4.setOnClickListener {
+        btnBuy1.setOnClickListener {
 
         }
         val buys = Intent(this, BuyActivity1::class.java)
