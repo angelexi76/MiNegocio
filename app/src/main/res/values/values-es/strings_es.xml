@@ -33,7 +33,7 @@
     <string name="text_description_favororite">Los pasteles favoritos y tradicionales de varios colores. Ingredientes como chocolate, vainilla y frutas.</string>
     <string name="text_description_cup"> La variedad que aquí presentamos es amplia,tentadora y sofisticada cupcakes para todas las ocasiones</string>
 
-
+    <string name="text_order">Su pedido</string>
     <string name="text_price1">Price:$1234</string>
     <string name="text_buy">Comprar</string>
     <string name="text_cost">Costo envio</string>

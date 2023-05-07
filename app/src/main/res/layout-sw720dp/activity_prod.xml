@@ -24,7 +24,7 @@
                 android:background="@drawable/degraded_2"
                 android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
                 app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
-                app:title="@string/txv_text_1"
+                app:title="@string/text_1"
                 app:backgroundTint="@null" />
 
 
@@ -49,7 +49,7 @@
                 android:background="@drawable/degraded_2"
                 android:gravity="center"
                 android:onClick="fruit1"
-                android:text="@string/txv_product1"
+                android:text="@string/text_product1"
                 android:textColor="@color/white"
                 android:textSize="80sp"
                 android:textStyle="bold" />
@@ -65,7 +65,7 @@
                 android:paddingStart="20dp"
                 android:paddingTop="10dp"
                 android:paddingBottom="19dp"
-                android:text="@string/txv_description_fruit"
+                android:text="@string/text_description_fruit"
                 android:textColor="@color/white"
                 android:textSize="50sp"
                 android:textStyle="bold" />
@@ -117,7 +117,7 @@
                 android:background="@drawable/degraded_2"
                 android:gravity="center"
                 android:onClick="fruit1"
-                android:text="@string/txv_product2"
+                android:text="@string/text_product2"
                 android:textColor="@color/white"
                 android:textSize="80sp"
                 android:textStyle="bold" />
@@ -131,7 +131,7 @@
                 android:background="@drawable/degraded1"
                 android:paddingStart="9dp"
                 android:paddingBottom="19dp"
-                android:text="@string/txv_description_theme"
+                android:text="@string/text_description_theme"
                 android:textColor="@color/white"
                 android:textSize="50sp"
                 android:textStyle="bold" />
@@ -186,7 +186,7 @@
                 android:paddingStart="9dp"
                 android:paddingTop="19dp"
                 android:paddingBottom="19dp"
-                android:text="@string/txv_description"
+                android:text="@string/text_description_favororite"
                 android:textColor="@color/white"
                 android:textSize="50sp"
                 android:textStyle="bold" />
@@ -198,7 +198,7 @@
             android:layout_marginTop="1dp"
             android:layout_marginBottom="20dp"
             android:background="@drawable/degraded_2"
-            android:text="@string/txv_product3"
+            android:text="@string/text_product3"
             android:onClick="cake"
             android:gravity="center"
             android:textColor="@color/white"
@@ -255,7 +255,7 @@
                     android:paddingStart="9dp"
                     android:paddingTop="20dp"
                     android:layout_marginTop="120dp"
-                    android:text="@string/txv_description_cup"
+                    android:text="@string/text_description_cup"
                     android:textColor="@color/white"
                     android:textSize="50sp"
                     android:textStyle="bold" />
@@ -271,7 +271,7 @@
             android:background="@drawable/degraded_2"
             android:gravity="center"
             android:onClick="cup"
-            android:text="@string/txv_product4"
+            android:text="@string/text_product4"
             android:textColor="@color/white"
             android:textSize="80sp"
             android:textStyle="bold" />

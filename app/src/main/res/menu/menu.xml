@@ -4,30 +4,30 @@
 
     <item
         android:icon="@drawable/icono"
-        android:title="@string/txv_text_2"
+        android:title="@string/text_2"
         app:showAsAction="always"
         />
 
 
     <item
         android:id="@+id/txv_action_search"
-        android:title="@string/txv_action_search"
+        android:title="@string/text_action_search"
         android:icon="@android:drawable/ic_menu_search"
         app:showAsAction="always"/>
 
 
 
-    <item android:title="@string/txv_product1" />
-    <item android:title="@string/txv_product2" />
-    <item android:title="@string/txv_product3" />
-    <item android:title="@string/txv_product4" />
+    <item android:title="@string/text_product1" />
+    <item android:title="@string/text_product2" />
+    <item android:title="@string/text_product3" />
+    <item android:title="@string/text_product4" />
 
 
 
     <item
         android:id="@+id/tvx_action_logout"
 
-        android:title="@string/txv_action_logout"
+        android:title="@string/text_action_logout"
         app:showAsAction="always"
         />
 

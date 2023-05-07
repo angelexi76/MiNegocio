@@ -39,13 +39,13 @@ class Prod4Activity : AppCompatActivity() {
     //when evalua si el item q se pulso coincide con el  R.id.txv_action_search    si es true creamos la funcion anonima  -> q defina la accion a realizar
     override fun onOptionsItemSelected(item: MenuItem): Boolean =when(item.itemId) {
         R.id.txv_action_search-> {
-            Toast.makeText(this,R.string.txv_action_search, Toast.LENGTH_LONG).show()
+            Toast.makeText(this,R.string.text_action_search, Toast.LENGTH_LONG).show()
             true
 
         }
 
         R.id.tvx_action_logout-> {
-            Toast.makeText(this, R.string.txv_action_logout, Toast.LENGTH_LONG).show()
+            Toast.makeText(this, R.string.text_action_logout, Toast.LENGTH_LONG).show()
             true
         }
         else -> {

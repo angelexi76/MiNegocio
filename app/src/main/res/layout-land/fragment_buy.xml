@@ -28,10 +28,10 @@
           android:layout_width="wrap_content"
           android:layout_height="wrap_content"
           android:layout_gravity="center_horizontal"
-          android:text="@string/txv_text_1"
+          android:text="@string/text_1"
           android:layout_marginTop="35dp"
-          android:textColor="@color/white"
-          android:textSize="40sp"
+          android:textColor="@color/black"
+          android:textSize="60sp"
           android:textStyle="bold" />
 
       <ImageView
@@ -49,13 +49,13 @@
           android:layout_height="wrap_content"
           android:layout_gravity="center_horizontal"
           android:layout_marginTop="10dp"
-          android:text="@string/txv_text_2"
-          android:textColor="@color/white"
+          android:text="@string/text_2"
+          android:textColor="@color/black"
           android:textSize="30sp" />
 
 
       <androidx.cardview.widget.CardView
-          android:id="@+id/card_buy"
+          android:id="@+id/buy"
           android:layout_width="match_parent"
           android:layout_height="613dp"
           android:layout_margin="3dp"
@@ -75,8 +75,8 @@
               android:onClick="what"
               android:paddingStart="9dp"
               android:paddingTop="2dp"
-              android:text="@string/sub_total"
-              android:textColor="@color/material_500"
+              android:text="@string/text_sub_total"
+              android:textColor="@color/black"
               android:textSize="35dp"
               android:textStyle="bold" />
 
@@ -90,8 +90,8 @@
               android:onClick="whats"
               android:paddingStart="9dp"
               android:paddingTop="2dp"
-              android:text="@string/costo_envio"
-              android:textColor="@color/material_500"
+              android:text="@string/text_cost"
+              android:textColor="@color/black"
               android:textSize="35sp"
               android:textStyle="bold" />
 
@@ -105,8 +105,8 @@
               android:onClick="what1"
               android:paddingStart="9dp"
               android:paddingTop="2dp"
-              android:text="@string/total"
-              android:textColor="@color/material_500"
+              android:text="@string/text_total"
+              android:textColor="@color/black"
               android:textSize="35sp"
               android:textStyle="bold" />
 

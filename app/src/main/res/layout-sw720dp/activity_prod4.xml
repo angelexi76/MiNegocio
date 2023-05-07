@@ -23,7 +23,7 @@
             android:background="@drawable/degraded_2"
             android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
             app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
-            app:title="@string/txv_text_1"
+            app:title="@string/text_1"
             app:backgroundTint="@null" />
 
 
@@ -48,7 +48,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:text="@string/txv_product4"
+            android:text="@string/text_product4"
             android:textColor="@color/white"
             android:textSize="45sp"
             android:textStyle="bold" />
@@ -62,7 +62,7 @@
             android:background="@color/rosa"
             android:paddingStart="6dp"
             android:paddingTop="6dp"
-            android:text="@string/txv_description4"
+            android:text="@string/text_description4"
             android:textColor="@color/material_500"
             android:textSize="23sp"
             android:textStyle="italic" />
@@ -96,7 +96,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="6dp"
             android:layout_marginTop="555dp"
-            android:text="@string/txv_price1"
+            android:text="@string/text_price1"
             android:textColor="@color/material_500"
             android:textSize="20sp"
             android:textStyle="bold" />
@@ -163,7 +163,7 @@
             android:background="@drawable/boton"
             android:backgroundTint="@color/material_500"
             android:onClick="buttonBuy"
-            android:text="@string/buy"
+            android:text="@string/text_buy"
             android:textSize="25dp" />
     </androidx.cardview.widget.CardView>
 

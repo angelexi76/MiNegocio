@@ -37,9 +37,10 @@
                 android:layout_marginBottom="15dp"
                 android:paddingStart="13dp"
                 android:paddingTop="10dp"
-                android:text="@string/txv_text_1"
-                android:textColor="@color/white"
-                android:textSize="40sp"
+                android:text="@string/text_1"
+                android:textColor="@color/black"
+                android:textSize="60sp"
+
                 android:textStyle="bold" />
 
 
@@ -57,9 +58,9 @@
                 android:elegantTextHeight="true"
                 android:layout_marginTop="10dp"
                 android:layout_marginBottom="15dp"
-                android:text="@string/txv_text_2"
-                android:textColor="@color/white"
-                android:textSize="30sp"
+                android:text="@string/text_2"
+                android:textColor="@color/black"
+                android:textSize="40sp"
                 android:textStyle="bold" />
         </LinearLayout>
 
@@ -82,7 +83,7 @@
                 android:layout_marginStart="15dp"
                 android:layout_marginEnd="15dp"
                     android:background="@drawable/boton"
-                android:hint="@string/txt_email"
+                android:hint="@string/text_email"
                 android:inputType="textEmailAddress"
                 android:paddingStart="15dp"
                 android:textColor="@color/black"
@@ -106,7 +107,7 @@
                     android:layout_marginTop="15dp"
                     android:layout_marginEnd="15dp"
                     android:background="@drawable/boton"
-                    android:hint="@string/txt_password"
+                    android:hint="@string/text_password"
                     android:inputType="textPassword"
                     android:paddingStart="15dp"
                     android:textAlignment="textStart"
@@ -128,9 +129,9 @@
                 android:background="@drawable/boton"
                 android:backgroundTint="@color/material_500"
                 android:onClick="login"
-                android:text="@string/txt_login"
-                android:textColor="@color/white"
-                android:textSize="35dp" />
+                android:text="@string/text_login"
+                android:textColor="@color/black"
+                android:textSize="40dp" />
 
 
         </LinearLayout>

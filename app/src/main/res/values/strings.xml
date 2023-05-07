@@ -1,46 +1,46 @@
 <resources>
 
 
-    <string name="txt_start">START</string>
+    <string name="text_start">START</string>
 
 
     <string name="edit_name_user">Name</string>
     <string name="edit_email_user"> Email</string>
     <string name="edit_password_user">Password</string>
-    <string name="txt_name">Name</string>
-    <string name="txt_email">Email</string>
-    <string name="txt_password">Password </string>
-    <string name="txt_login">Login</string>
-    <string name="txt_register">Register</string>
+    <string name="text_name">Name</string>
+    <string name="text_email">Email</string>
+    <string name="text_password">Password </string>
+    <string name="text_login">Login</string>
+    <string name="text_register">Register</string>
 
-    <string name="txv_text_1">MAFE</string>
-    <string name="txv_text_2">Artisan Pastry</string>
-    <string name="txv_product1">Fruit Cake</string>
-    <string name="txv_product2">Theme Cake</string>
-    <string name="txv_product3">Favorites</string>
-    <string name="txv_product4">Cupcakes</string>
-    <string name="txv_action_logout">log out</string>
-    <string name="txv_action_search">Search</string>
-
-
-    <string name="txv_description1">Fruity and juicy cakes filled with fruit,apples,strawberries,and more; To obtain the best result our recipes are made with essences and fresh and natural products</string>
-    <string name="txv_description2">Delicious,fluffy,fun and creative ideas, we give it flavor with creamy and sweet toppings </string>
-    <string name="txv_description3">Very decorative and with special toppings to shape your classic style cakes</string>
-   <string name="txv_description4">Cupcakes are the star of confectionery,Ideal for the most special days of the year.The variety that we present here is wide and tempting</string>
-
-    <string name="txv_description_fruit">Fruity and juicy cakes filled with fruit,apples,strawberries,and more</string>
-    <string name="txv_description_theme">Delicious,fluffy,fun and creative ideas.<br>Enjoy flavored,sweet and original creams</br></string>
-    <string name="txv_description_favororite">The favorite and traditional cakes of various colors.Ingredients such as chocolate, vanilla and fruit.</string>
-    <string name="txv_description_cup">The variety that we present here is wide, tempting and sophisticated cupcakes for all occasions</string>
+    <string name="text_1">MAFE</string>
+    <string name="text_2">Artisan Pastry</string>
+    <string name="text_product1">Fruit Cake</string>
+    <string name="text_product2">Theme Cake</string>
+    <string name="text_product3">Favorites</string>
+    <string name="text_product4">Cupcakes</string>
+    <string name="text_action_logout">log out</string>
+    <string name="text_action_search">Search</string>
 
 
+    <string name="text_description1">Fruity and juicy cakes filled with fruit,apples,strawberries,and more; To obtain the best result our recipes are made with essences and fresh and natural products</string>
+    <string name="text_description2">Delicious,fluffy,fun and creative ideas, we give it flavor with creamy and sweet toppings </string>
+    <string name="text_description3">Very decorative and with special toppings to shape your classic style cakes</string>
+    <string name="text_description4">Cupcakes are the star of confectionery,Ideal for the most special days of the year.The variety that we present here is wide and tempting</string>
+
+    <string name="text_description_fruit">Fruity and juicy cakes filled with fruit,apples,strawberries,and more</string>
+    <string name="text_description_theme">Delicious,fluffy,fun and creative ideas.<br>Enjoy flavored,sweet and original creams</br></string>
+    <string name="text_description_favororite">The favorite and traditional cakes of various colors.Ingredients such as chocolate, vanilla and fruit.</string>
+    <string name="text_description_cup">The variety that we present here is wide, tempting and sophisticated cupcakes for all occasions</string>
 
 
-    <string name="txv_price1">Price:$1234</string>
-    <string name="buy">Buy</string>
-    <string name="cost">Shipping cost</string>
-    <string name="sub_total">Subtotal</string>
-    <string name="total">Total</string>
+
+    <string name="text_order">Your order</string>
+    <string name="text_price1">Price:$1234</string>
+    <string name="text_buy">Buy</string>
+    <string name="text_cost">Shipping cost</string>
+    <string name="text_sub_total">Subtotal</string>
+    <string name="text_total">Total</string>
 
 
 </resources>

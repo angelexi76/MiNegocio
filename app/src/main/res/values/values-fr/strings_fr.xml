@@ -33,7 +33,7 @@
     <string name="text_description_favororite">Les gâteaux préférés et traditionnels de différentes couleurs. Des ingrédients tels que le chocolat, la vanille et les fruits.</string>
     <string name="text_description_cup">La variété que nous présentons ici est large, alléchante et sophistiquée pour toutes les occasions. </string>
 
-
+    <string name="text_order">Votre commande</string>
     <string name="text_price1">Price:$1234</string>
     <string name="text_buy">acheter</string>
     <string name="text_cost">Frais de port</string>

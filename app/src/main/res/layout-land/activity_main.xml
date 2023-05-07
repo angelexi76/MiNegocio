@@ -34,9 +34,9 @@
             android:paddingTop="26dp"
             android:layout_marginTop="60dp"
             android:layout_marginBottom="10dp"
-            android:text="@string/txv_text_1"
-            android:textColor="@color/white"
-            android:textSize="40sp"
+            android:text="@string/text_1"
+            android:textColor="@color/black"
+            android:textSize="60sp"
             android:textStyle="bold" />
 
 
@@ -52,9 +52,9 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:elegantTextHeight="true"
-            android:text="@string/txv_text_2"
-            android:textColor="@color/white"
-            android:textSize="35sp"
+            android:text="@string/text_2"
+            android:textColor="@color/black"
+            android:textSize="40sp"
             android:textStyle="bold" />
 
 
@@ -66,10 +66,10 @@
             android:layout_gravity="center"
             android:layout_margin="140dp"
             android:onClick="start"
-            android:textColor="@color/white"
+            android:textColor="@color/black"
             android:background="@drawable/boton"
-            android:text="@string/txt_start"
-            android:textSize="30dp" />
+            android:text="@string/text_start"
+            android:textSize="40dp" />
 
 
     </LinearLayout>

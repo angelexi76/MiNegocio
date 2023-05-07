@@ -25,7 +25,7 @@
         android:background="@drawable/degraded_2"
         android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
         app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
-        app:title="@string/txv_text_1"
+        app:title="@string/text_1"
         app:backgroundTint="@null" />
 
 
@@ -50,7 +50,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
-                    android:text="@string/txv_product1"
+                    android:text="@string/text_product1"
                     android:layout_marginTop="30dp"
                     android:textColor="@color/white"
                     android:textSize="90sp"
@@ -68,7 +68,7 @@
                     android:background="@color/rosa"
                     android:paddingStart="9dp"
                     android:paddingTop="6dp"
-                    android:text="@string/txv_description1"
+                    android:text="@string/text_description1"
                     android:textColor="@color/material_500"
                     android:textSize="50sp"
                     android:textStyle="italic" />
@@ -103,7 +103,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="16dp"
                     android:layout_marginTop="1300dp"
-                    android:text="@string/txv_price1"
+                    android:text="@string/text_price1"
                     android:textColor="@color/material_500"
                     android:textSize="40sp"
                     android:textStyle="bold" />
@@ -173,7 +173,7 @@
                     android:background="@drawable/boton"
                     android:backgroundTint="@color/material_500"
                     android:onClick="buttonBuy"
-                    android:text="@string/buy"
+                    android:text="@string/text_buy"
                     android:textSize="45dp" />
 
 

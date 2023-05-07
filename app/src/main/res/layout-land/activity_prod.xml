@@ -12,19 +12,19 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical"
-            android:background="@color/white"
+            android:background="@color/black"
             tools:context=".ProdActivity">
 
         <androidx.appcompat.widget.Toolbar
                 android:id="@+id/my_barra"
                 android:layout_width="match_parent"
                 android:layout_height="?actionBarSize"
-                app:titleTextColor="@color/white"
+                app:titleTextColor="@color/black"
                 android:elevation="3dp"
                 android:background="@drawable/degraded_2"
                 android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
                 app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
-                app:title="@string/txv_text_1"
+                app:title="@string/text_1"
                 app:backgroundTint="@null" />
 
 
@@ -38,7 +38,7 @@
             android:layout_weight="1"
             android:layout_margin="15dp"
             android:background="@drawable/degraded_2"
-            app:cardBackgroundColor="@color/rosa">
+            app:cardBackgroundColor="@color/black">
 
             <TextView
                 android:id="@+id/fruit"
@@ -49,24 +49,24 @@
                 android:background="@drawable/degraded_2"
                 android:gravity="center"
                 android:onClick="fruit1"
-                android:text="@string/txv_product1"
-                android:textColor="@color/white"
+                android:text="@string/text_product1"
+                android:textColor="@color/black"
                 android:textSize="45sp"
                 android:textStyle="bold" />
 
 
             <TextView
                 android:layout_width="500dp"
-                android:layout_height="200dp"
+                android:layout_height="217dp"
                 android:layout_gravity="left"
-                android:layout_marginTop="85dp"
+                android:layout_marginTop="66dp"
                 android:layout_marginBottom="5dp"
-                android:background="@drawable/degraded1"
+                android:background="@color/white"
                 android:paddingStart="9dp"
                 android:paddingTop="9dp"
                 android:paddingBottom="19dp"
-                android:text="@string/txv_description_fruit"
-                android:textColor="@color/white"
+                android:text="@string/text_description_fruit"
+                android:textColor="@color/black"
                 android:textSize="35sp"
                 android:textStyle="bold" />
 
@@ -74,9 +74,9 @@
             <ImageView
                 android:id="@+id/image1"
                 android:layout_width="370dp"
-                android:layout_height="140dp"
+                android:layout_height="190dp"
                 android:layout_gravity="top|end"
-                android:layout_marginTop="85dp"
+                android:layout_marginTop="95dp"
                 android:layout_marginEnd="10dp"
                 android:elevation="3dp"
                 android:src="@drawable/cake1" />
@@ -93,8 +93,8 @@
                 android:padding="2dp"
                 android:paddingBottom="6dp"
                 android:text=">>>"
-                android:textColor="@color/material_500"
-                android:textSize="30dp" />
+                android:textColor="@color/black"
+                android:textSize="35dp" />
 
         </androidx.cardview.widget.CardView>
 
@@ -106,7 +106,7 @@
             android:layout_weight="1"
             android:layout_margin="15dp"
             android:background="@drawable/degraded_2"
-            app:cardBackgroundColor="@color/rosa">
+            app:cardBackgroundColor="@color/black">
 
 
             <TextView
@@ -118,8 +118,8 @@
                 android:background="@drawable/degraded_2"
                 android:gravity="center"
                 android:onClick="theme"
-                android:text="@string/txv_product2"
-                android:textColor="@color/white"
+                android:text="@string/text_product2"
+                android:textColor="@color/black"
                 android:textSize="45sp"
                 android:textStyle="bold" />
 
@@ -127,13 +127,13 @@
                 android:layout_width="500dp"
                 android:layout_height="200dp"
                 android:layout_gravity="left"
-                android:layout_marginTop="85dp"
+                android:layout_marginTop="66dp"
                 android:layout_marginBottom="1dp"
-                android:background="@drawable/degraded1"
+                android:background="@color/white"
                 android:paddingStart="9dp"
                 android:paddingBottom="19dp"
-                android:text="@string/txv_description_theme"
-                android:textColor="@color/white"
+                android:text="@string/text_description_theme"
+                android:textColor="@color/black"
                 android:textSize="35sp"
                 android:textStyle="bold" />
 
@@ -141,7 +141,7 @@
             <ImageView
                 android:id="@+id/image2"
                 android:layout_width="370dp"
-                android:layout_height="140dp"
+                android:layout_height="170dp"
                 android:layout_gravity="top|end"
                 android:layout_marginTop="85dp"
                 android:layout_marginEnd="10dp"
@@ -160,8 +160,8 @@
                 android:padding="2dp"
                 android:paddingBottom="6dp"
                 android:text=">>>"
-                android:textColor="@color/material_500"
-                android:textSize="30dp"
+                android:textColor="@color/black"
+                android:textSize="35dp"
                 />
 
         </androidx.cardview.widget.CardView>
@@ -175,20 +175,20 @@
                         android:layout_weight="1"
                         android:layout_margin="15dp"
                         android:background="@drawable/degraded_2"
-                        app:cardBackgroundColor="@color/rosa">
+                        app:cardBackgroundColor="@color/black">
 
             <TextView
 
                 android:layout_width="500dp"
-                android:layout_height="200dp"
+                android:layout_height="175dp"
                 android:layout_gravity="left"
-                android:layout_marginTop="85dp"
-                android:background="@drawable/degraded1"
+                android:layout_marginTop="70dp"
+                android:background="@color/white"
                 android:paddingStart="9dp"
                 android:paddingTop="19dp"
                 android:paddingBottom="19dp"
-                android:text="@string/txv_description_theme"
-                android:textColor="@color/white"
+                android:text="@string/text_description_theme"
+                android:textColor="@color/black"
                 android:textSize="35sp"
                 android:textStyle="bold" />
 
@@ -199,10 +199,10 @@
             android:layout_marginTop="1dp"
             android:layout_marginBottom="20dp"
             android:background="@drawable/degraded_2"
-            android:text="@string/txv_product3"
+            android:text="@string/text_product3"
             android:onClick="cake"
             android:gravity="center"
-            android:textColor="@color/white"
+            android:textColor="@color/black"
             android:textSize="45sp"
             android:textStyle="bold" />
 
@@ -211,7 +211,7 @@
                 android:layout_width="370dp"
                 android:layout_height="140dp"
                 android:layout_gravity="top|end"
-                android:layout_marginTop="85dp"
+                android:layout_marginTop="95dp"
                 android:layout_marginEnd="10dp"
                 android:elevation="3dp"
                 android:src="@drawable/cake_favorito" />
@@ -227,8 +227,8 @@
                 android:padding="2dp"
                 android:paddingBottom="6dp"
                 android:text=">>>"
-                android:textColor="@color/material_500"
-                android:textSize="30dp"
+                android:textColor="@color/black"
+                android:textSize="35dp"
                 />
 
         </androidx.cardview.widget.CardView>
@@ -242,7 +242,7 @@
         android:background="@drawable/degraded_2"
         android:paddingTop="1dp"
         android:paddingBottom="3dp"
-        app:cardBackgroundColor="@color/rosa">
+        app:cardBackgroundColor="@color/black">
 
 
         <TextView
@@ -251,12 +251,12 @@
             android:layout_height="wrap_content"
             android:layout_gravity="left"
             android:layout_marginBottom="2dp"
-            android:background="@drawable/degraded1"
+            android:background="@color/white"
             android:paddingStart="9dp"
             android:paddingTop="15dp"
-            android:layout_marginTop="85dp"
-            android:text="@string/txv_description_cup"
-            android:textColor="@color/white"
+            android:layout_marginTop="65dp"
+            android:text="@string/text_description_cup"
+            android:textColor="@color/black"
             android:textSize="35sp"
             android:textStyle="bold" />
 
@@ -271,15 +271,15 @@
             android:background="@drawable/degraded_2"
             android:gravity="center"
             android:onClick="cup"
-            android:text="@string/txv_product4"
-            android:textColor="@color/white"
+            android:text="@string/text_product4"
+            android:textColor="@color/black"
             android:textSize="45sp"
             android:textStyle="bold" />
 
         <ImageView
             android:id="@+id/image4"
             android:layout_width="370dp"
-            android:layout_height="140dp"
+            android:layout_height="160dp"
             android:layout_gravity="top|end"
             android:layout_marginTop="85dp"
             android:layout_marginEnd="9dp"
@@ -298,7 +298,7 @@
             android:padding="2dp"
             android:paddingBottom="6dp"
             android:text=">>>"
-            android:textColor="@color/material_500"
+            android:textColor="@color/black"
             android:textSize="30dp"
             />
         />

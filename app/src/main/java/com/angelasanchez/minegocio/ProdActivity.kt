@@ -26,10 +26,10 @@ class ProdActivity : AppCompatActivity() {
         setSupportActionBar(findViewById(my_barra))
 
 
-        fruit = findViewById<TextView>( id.fruit)
-        them = findViewById<TextView>(id.them)
-        favor = findViewById<TextView>(id.favor)
-        cup1 = findViewById<TextView>(id.cup1)
+        fruit = findViewById<TextView>(R.id.fruit)
+        them  = findViewById<TextView>(R.id.them)
+        favor = findViewById<TextView>(R.id.favor)
+        cup1  = findViewById<TextView>(R.id.cup1)
 
 
     }
@@ -84,13 +84,13 @@ class ProdActivity : AppCompatActivity() {
     //when evalua si el item q se pulso coincide con el  R.id.txv_action_search    si es true creamos la funcion anonima  -> q defina la accion a realizar
     override fun onOptionsItemSelected(item: MenuItem): Boolean =when(item.itemId) {
         txv_action_search -> {
-            Toast.makeText(this,R.string.txv_action_search, Toast.LENGTH_LONG).show()
+            Toast.makeText(this,R.string.text_action_search, Toast.LENGTH_LONG).show()
             true
 
         }
 
         tvx_action_logout -> {
-            Toast.makeText(this, R.string.txv_action_logout, Toast.LENGTH_LONG).show()
+            Toast.makeText(this, R.string.text_action_logout, Toast.LENGTH_LONG).show()
             true
         }
         else -> {

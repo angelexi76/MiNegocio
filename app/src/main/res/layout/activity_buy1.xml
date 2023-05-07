@@ -21,17 +21,24 @@
         android:background="@drawable/degraded_2"
         android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
         app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
-        app:title="@string/txv_text_1"
+        app:title="@string/text_1"
         app:backgroundTint="@null" />
 
+<!--Con el id se conecta el fragmento a la actividad en el main y el boton del whatsApp tambien debe ser llamado aca por su id-->
 
-    <androidx.fragment.app.FragmentContainerView
-        android:id="@+id/fragment_container_view"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:name="com.angelasanchez.minegocio.BuyFragment"
-        tools:layout="@layout/fragment_buy" />
+
+        <androidx.fragment.app.FragmentContainerView
+            android:id="@+id/fragment_container_view"
+            android:name="com.angelasanchez.minegocio.BuyFragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:layout="@layout/fragment_buy"
+            />
+
+
+
 
     </LinearLayout>
+
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

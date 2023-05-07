@@ -23,13 +23,19 @@ class RegisterActivity : AppCompatActivity() {
 
     }
         fun register (btn2:View){
+
             if (name!!.text.toString()=="user"){
+
             }
                 if (email!!.text.toString()=="user@"){
+
                 }
 
                     if (password!!.text.toString()=="1234"){
+
+
     }
+
 
                         val register= Intent(this,LoginActivity::class.java)
                         startActivity(register)

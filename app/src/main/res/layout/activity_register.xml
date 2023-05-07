@@ -25,9 +25,9 @@
             android:elegantTextHeight="true"
             android:paddingStart="13dp"
             android:paddingTop="10dp"
-            android:text="@string/txv_text_1"
-            android:textColor="@color/white"
-            android:textSize="35sp"
+            android:text="@string/text_1"
+            android:textColor="@color/black"
+            android:textSize="50sp"
             android:textStyle="bold" />
 
 
@@ -43,9 +43,9 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:elegantTextHeight="true"
-            android:text="@string/txv_text_2"
-            android:textColor="@color/white"
-            android:textSize="25sp"
+            android:text="@string/text_2"
+            android:textColor="@color/black"
+            android:textSize="30sp"
             android:textStyle="bold" />
     </LinearLayout>
 
@@ -118,11 +118,11 @@
             android:layout_gravity="center"
             android:layout_margin="20dp"
             android:backgroundTint="@color/material_500"
-            android:textSize="25dp"
-            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:textColor="@color/black"
             android:background="@drawable/boton"
             android:onClick="register"
-            android:text="@string/txt_register" />
+            android:text="@string/text_register" />
 
 </LinearLayout>
 

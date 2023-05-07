@@ -18,10 +18,10 @@
           android:layout_width="wrap_content"
           android:layout_height="wrap_content"
           android:layout_gravity="center_horizontal"
-          android:text="@string/txv_text_1"
+          android:text="@string/text_1"
           android:layout_marginTop="30dp"
-          android:textColor="@color/white"
-          android:textSize="25sp"
+          android:textColor="@color/black"
+          android:textSize="33sp"
           android:textStyle="bold" />
 
       <ImageView
@@ -38,20 +38,34 @@
           android:layout_width="wrap_content"
           android:layout_height="wrap_content"
           android:layout_gravity="center_horizontal"
-          android:text="@string/txv_text_2"
-          android:textColor="@color/white"
-          android:textSize="20sp" />
+          android:text="@string/text_2"
+          android:textColor="@color/black"
+          android:textSize="25sp" />
 
 
       <androidx.cardview.widget.CardView
-          android:id="@+id/card_buy"
+          android:id="@+id/buy"
           android:layout_width="match_parent"
-          android:layout_height="613dp"
-          android:layout_margin="3dp"
-          android:layout_marginTop="9dp"
+          android:layout_height="560dp"
+          android:layout_marginTop="20dp"
           android:onClick="shop"
-          android:orientation="horizontal"
+          android:orientation="vertical"
           android:padding="9dp">
+
+          <TextView
+
+              android:id="@+id/order"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:layout_gravity="center_horizontal"
+              android:layout_marginTop="40dp"
+              android:onClick="what"
+              android:paddingStart="140dp"
+              android:paddingTop="2dp"
+              android:text="@string/text_order"
+              android:textColor="@color/black"
+              android:textSize="23sp"
+              android:textStyle="bold" />
 
 
           <TextView
@@ -64,8 +78,8 @@
               android:onClick="what"
               android:paddingStart="9dp"
               android:paddingTop="2dp"
-              android:text="@string/sub_total"
-              android:textColor="@color/material_500"
+              android:text="@string/text_sub_total"
+              android:textColor="@color/black"
               android:textSize="23sp"
               android:textStyle="bold" />
 
@@ -79,8 +93,8 @@
               android:onClick="whats"
               android:paddingStart="9dp"
               android:paddingTop="2dp"
-              android:text="@string/costo_envio"
-              android:textColor="@color/material_500"
+              android:text="@string/text_cost"
+              android:textColor="@color/black"
               android:textSize="23sp"
               android:textStyle="bold" />
 
@@ -88,16 +102,28 @@
 
               android:id="@+id/data3"
               android:layout_width="match_parent"
-              android:layout_height="368dp"
+              android:layout_height="103dp"
               android:layout_gravity="right"
               android:layout_marginTop="350dp"
               android:onClick="what1"
               android:paddingStart="9dp"
               android:paddingTop="2dp"
-              android:text="@string/total"
-              android:textColor="@color/material_500"
+              android:text="@string/text_total"
+              android:textColor="@color/black"
               android:textSize="23sp"
               android:textStyle="bold" />
+
+
+          <Button
+              android:id="@+id/btn_w"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_gravity="bottom|center"
+              android:layout_marginBottom="20dp"
+              android:background="@drawable/icon_w"
+              android:onClick="send">
+
+          </Button>
 
 
       </androidx.cardview.widget.CardView>
@@ -106,3 +132,5 @@
 
   </LinearLayout>
 </LinearLayout>
+
+<!--este fragmento es llamado en la activity para ser cargado por el id q se le coloque-->
