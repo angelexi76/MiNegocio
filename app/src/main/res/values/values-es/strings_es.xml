@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string name="text_start">INICIAR</string>
+    <string name="edit_name_user">Ingrese su Nombre</string>
+    <string name="edit_email_user">Ingrese su Correo</string>
+    <string name="edit_password_user">Ingrese su Contraseña </string>
+
+    <string name="text_name">Nombre</string>
+    <string name="text_email">Correo</string>
+    <string name="text_password">Contraseña</string>
+    <string name="text_login">Login</string>
+    <string name="text_register">Registrarse</string>
+
+    <string name="text_1">MAFE</string>
+    <string name="text_2">Pasteleria Artesanal</string>
+    <string name="text_product1">Ponque de frutas</string>
+    <string name="text_product2">Ponque Tematico</string>
+    <string name="text_product3">Favoritos</string>
+    <string name="text_product4">Cupcakes</string>
+    <string name="text_action_logout">Cerrar Sesión</string>
+    <string name="text_action_search">Buscar</string>
+
+    <string name="text_description1">Tortas afrutadas y jugosas llenas de frutas, manzanas, fresas y más,<br> Para obtener el mejor resultado nuestras recetas están elaboradas con esencias</br> y productos frescos y naturales. </string>
+    <string name="text_description2">Ideas deliciosas, esponjosas, divertidas y creativas, le damos sabor con toppings cremosos y dulces </string>
+    <string name="text_description3">Muy decorativas y con toppings especiales para dar forma a tus tortas de estilo clasico</string>
+    <string name="text_description4">Los cupcakes son la estrella de la repostería, ideales para los días más especiales del año. La variedad que aquí presentamos es amplia y tentadora</string>
+
+
+    <string name="text_description_fruit">Tortas afrutadas y jugosas llenas de frutas, manzanas, fresas y más</string>
+    <string name="text_description_theme">Ideas deliciosas,esponjosas,divertidas y creativas.<br>Disfruta de cremas con sabor,dulces y originales</br></string>
+    <string name="text_description_favororite">Los pasteles favoritos y tradicionales de varios colores. Ingredientes como chocolate, vainilla y frutas.</string>
+    <string name="text_description_cup"> La variedad que aquí presentamos es amplia,tentadora y sofisticada cupcakes para todas las ocasiones</string>
+
+
+    <string name="text_price1">Price:$1234</string>
+    <string name="text_buy">Comprar</string>
+    <string name="text_cost">Costo envio</string>
+    <string name="text_sub_total">Sub total</string>
+    <string name="text_total">Total</string>
+
+
+</resources>

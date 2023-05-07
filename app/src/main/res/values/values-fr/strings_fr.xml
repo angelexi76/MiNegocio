@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string name="text_start">COMMENCER</string>
+    <string name="edit_name_user">Entrez votre nom</string>
+    <string name="edit_email_user">Entrer votre Email</string>
+    <string name="edit_password_user">Tapez votre mot de passe</string>
+
+    <string name="text_name">Nom</string>
+    <string name="text_email">Email</string>
+    <string name="text_password">Passe</string>
+    <string name="text_login">Connexion</string>
+    <string name="text_register">Enregistrement</string>
+
+    <string name="text_1">MAFE</string>
+    <string name="text_2">Pâtisserie Artisanale</string>
+    <string name="text_product1">Gâteau aux fruits</string>
+    <string name="text_product2">Gâteau à thème</string>
+    <string name="text_product3">Favoris</string>
+    <string name="text_product4">petits gâteaux</string>
+    <string name="text_action_logout">Fermer la session</string>
+    <string name="text_action_search">Chercher</string>
+
+    <string name="text_description1">Gâteaux fruités et juteux remplis de fruits, pommes, fraises et plus,<br> Pour obtenir le meilleur résultat, nos recettes sont élaborées avec des essences</br> et des produits frais et naturels. </string>
+    <string name="text_description2">Des idées délicieuses, moelleuses, amusantes et créatives, nous lui donnons du goût avec des garnitures crémeuses et sucrées</string>
+    <string name="text_description3">Très décoratif et avec des garnitures spéciales pour façonner vos gâteaux de style classique</string>
+    <string name="text_description4">Les petits gâteaux sont la star de la confiserie, idéale pour les jours les plus spéciaux de l'année <br> La variété que nous présentons ici est large et tentante</br> </string>
+
+
+    <string name="text_description_fruit">Gâteaux fruités et juteux remplis de fruits, pommes, fraises et plus</string>
+    <string name="text_description_theme">Des idées délicieuses, moelleuses, amusantes et créatives.<br>Savourez des crèmes parfumées, douces et originales</br></string>
+    <string name="text_description_favororite">Les gâteaux préférés et traditionnels de différentes couleurs. Des ingrédients tels que le chocolat, la vanille et les fruits.</string>
+    <string name="text_description_cup">La variété que nous présentons ici est large, alléchante et sophistiquée pour toutes les occasions. </string>
+
+
+    <string name="text_price1">Price:$1234</string>
+    <string name="text_buy">acheter</string>
+    <string name="text_cost">Frais de port</string>
+    <string name="text_sub_total">Sub total</string>
+    <string name="text_total">Total</string>
+
+
+</resources>
