@@ -2,6 +2,7 @@ package com.angelasanchez.minegocio
 
 import android.annotation.SuppressLint
 import android.content.Intent
+import android.net.Uri
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -15,7 +16,7 @@ import android.widget.TextView
 class BuyFragment : Fragment() {
 
 
-
+    private lateinit var btn_w: Button
 
     override fun onCreate(savedInstanceState: Bundle?) {
 
@@ -94,12 +95,25 @@ class BuyFragment : Fragment() {
         }
 
 
+//send data a whatsapp
+    fun send_data(view: View){
 
 
+
+    btn_w.setOnClickListener{
     }
+        val send = Intent(Intent.ACTION_SENDTO)
+        val phoneNumber = "+3138322498"
+        val message = "Welcome,to Mafe artisan pastry"
+        val intent = Intent(Intent.ACTION_VIEW)
+        intent.data = Uri.parse("https://wa.me/$phoneNumber/?text=$message")
+
+       startActivity(send)
+
+}
 
 
-
+}
 
 
 

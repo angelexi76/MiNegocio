@@ -1,6 +1,7 @@
 package com.angelasanchez.minegocio
 
 import android.content.Intent
+import android.net.Uri
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -12,7 +13,7 @@ import com.angelasanchez.minegocio.R.id.*
 //conexion del fragment a la activity por medio del id es llamado//
 class BuyActivity1 : AppCompatActivity() {
 
-    private lateinit var btn_w: Button
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -30,30 +31,12 @@ class BuyActivity1 : AppCompatActivity() {
         }
 
 
-
     }
 
-
-    fun send(view: View) {
-        btn_w.setOnClickListener() {
-
-
-            val sendIntent = Intent()
-            sendIntent.setAction(Intent.ACTION_SEND)
-            sendIntent.putExtra(Intent.EXTRA_TEXT, "This is my text to send.")
-            sendIntent.setType("text/plain")
-            sendIntent.setPackage("com.whatsapp")
-
-
-
-
-            startActivity(sendIntent)
-        }
 
 
     }
 
-}
 
 
 
