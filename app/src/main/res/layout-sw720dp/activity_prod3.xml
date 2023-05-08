@@ -19,7 +19,7 @@
             android:id="@+id/my_barra"
             android:layout_width="match_parent"
             android:layout_height="?actionBarSize"
-            app:titleTextColor="@color/white"
+            app:titleTextColor="@color/black"
             android:elevation="3dp"
             android:background="@drawable/degraded_2"
             android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
@@ -63,8 +63,8 @@
                 android:layout_marginTop="145dp"
                 android:layout_marginStart="10dp"
                 android:layout_marginEnd="10dp"
-                android:paddingStart="6dp"
-                android:paddingTop="6dp"
+                android:paddingStart="9dp"
+                android:paddingTop="9dp"
                 android:text="@string/text_description3"
                 android:textColor="@color/black"
                 android:textSize="50sp"
@@ -75,14 +75,14 @@
                 android:layout_height="300dp"
                 android:layout_gravity="center"
                 android:layout_marginBottom="170dp"
-                android:src="@drawable/cup3" />
+                android:src="@drawable/cupc3" />
 
             <ImageView
                 android:layout_width="300dp"
                 android:layout_height="300dp"
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="180dp"
-                android:src="@drawable/cup2" />
+                android:src="@drawable/cupc2" />
 
 
             <ImageView
@@ -91,22 +91,22 @@
                 android:layout_gravity="end"
                 android:layout_marginTop="190dp"
                 android:layout_marginEnd="20dp"
-                android:src="@drawable/cup1" />
+                android:src="@drawable/cupc_1" />
 
             <TextView
 
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="6dp"
-                android:layout_marginTop="1300dp"
+                android:layout_marginStart="9dp"
+                android:layout_marginTop="1200dp"
                 android:text="@string/text_price1"
-                android:textColor="@color/material_500"
+                android:textColor="@color/black"
                 android:textSize="40sp"
                 android:textStyle="bold" />
 
 
             <LinearLayout
-                android:layout_width="200dp"
+                android:layout_width="250dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="end"
                 android:layout_marginTop="1300dp"
@@ -118,12 +118,12 @@
 
                 <Button
                     android:id="@+id/button2"
-                    android:layout_width="60dp"
-                    android:layout_height="60dp"
-                    android:layout_marginStart="10dp"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_marginStart="23dp"
                     android:background="@drawable/boton"
                     android:textColor="@color/white"
-                    android:backgroundTint="@color/material_500"
+                    android:backgroundTint="@color/black"
                     android:onClick="sum3"
                     android:padding="1dp"
                     android:text="+"
@@ -133,8 +133,8 @@
                 <TextView
 
                     android:id="@+id/textView"
-                    android:layout_width="50dp"
-                    android:layout_height="50dp"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
                     android:text="0"
                     android:padding="1dp"
                     android:gravity="center"
@@ -146,10 +146,10 @@
 
                 <Button
                     android:id="@+id/button3"
-                    android:layout_width="60dp"
-                    android:layout_height="60dp"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
                     android:background="@drawable/boton"
-                    android:backgroundTint="@color/material_500"
+                    android:backgroundTint="@color/black"
                     android:padding="1dp"
                     android:onClick="rest3"
                     android:textColor="@color/white"
@@ -166,7 +166,7 @@
                 android:layout_gravity="bottom|center"
                 android:layout_marginBottom="30dp"
                 android:background="@drawable/boton"
-                android:backgroundTint="@color/material_500"
+                android:backgroundTint="@color/white"
                 android:onClick="buttonBuy"
                 android:text="@string/text_buy"
                 android:textSize="45dp" />

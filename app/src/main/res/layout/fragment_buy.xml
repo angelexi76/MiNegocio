@@ -21,7 +21,7 @@
           android:text="@string/text_1"
           android:layout_marginTop="30dp"
           android:textColor="@color/black"
-          android:textSize="33sp"
+          android:textSize="40sp"
           android:textStyle="bold" />
 
       <ImageView
@@ -40,7 +40,7 @@
           android:layout_gravity="center_horizontal"
           android:text="@string/text_2"
           android:textColor="@color/black"
-          android:textSize="25sp" />
+          android:textSize="35sp" />
 
 
       <androidx.cardview.widget.CardView
@@ -60,11 +60,11 @@
               android:layout_gravity="center_horizontal"
               android:layout_marginTop="40dp"
               android:onClick="what"
-              android:paddingStart="140dp"
+              android:paddingStart="126dp"
               android:paddingTop="2dp"
               android:text="@string/text_order"
               android:textColor="@color/black"
-              android:textSize="23sp"
+              android:textSize="30sp"
               android:textStyle="bold" />
 
 
@@ -80,7 +80,7 @@
               android:paddingTop="2dp"
               android:text="@string/text_sub_total"
               android:textColor="@color/black"
-              android:textSize="23sp"
+              android:textSize="30sp"
               android:textStyle="bold" />
 
           <TextView
@@ -95,7 +95,7 @@
               android:paddingTop="2dp"
               android:text="@string/text_cost"
               android:textColor="@color/black"
-              android:textSize="23sp"
+              android:textSize="30sp"
               android:textStyle="bold" />
 
           <TextView
@@ -110,7 +110,7 @@
               android:paddingTop="2dp"
               android:text="@string/text_total"
               android:textColor="@color/black"
-              android:textSize="23sp"
+              android:textSize="30sp"
               android:textStyle="bold" />
 
 
