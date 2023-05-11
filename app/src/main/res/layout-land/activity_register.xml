@@ -31,7 +31,7 @@
             android:paddingStart="13dp"
             android:paddingTop="10dp"
             android:text="@string/text_1"
-            android:textColor="@color/white"
+            android:textColor="@color/black"
             android:textSize="40sp"
             android:textStyle="bold" />
 
@@ -49,7 +49,7 @@
             android:layout_gravity="center_horizontal"
             android:elegantTextHeight="true"
             android:text="@string/text_2"
-            android:textColor="@color/white"
+            android:textColor="@color/black"
             android:textSize="35sp"
             android:textStyle="bold" />
     </LinearLayout>
@@ -124,7 +124,7 @@
             android:layout_margin="20dp"
             android:backgroundTint="@color/material_500"
             android:textSize="35dp"
-            android:textColor="@color/white"
+            android:textColor="@color/black"
             android:background="@drawable/boton"
             android:onClick="register"
             android:text="@string/text_register" />

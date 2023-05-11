@@ -16,7 +16,7 @@
         android:id="@+id/my_barra"
         android:layout_width="match_parent"
         android:layout_height="?actionBarSize"
-        app:titleTextColor="@color/white"
+        app:titleTextColor="@color/black"
         android:elevation="3dp"
         android:background="@drawable/degraded_2"
         android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
