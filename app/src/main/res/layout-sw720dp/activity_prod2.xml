@@ -58,10 +58,17 @@
           android:layout_height="252dp"
           android:layout_gravity="center"
           android:layout_marginStart="10dp"
+<<<<<<< HEAD
           android:layout_marginTop="210dp"
           android:layout_marginEnd="9dp"
           android:paddingStart="6dp"
           android:paddingTop="6dp"
+=======
+          android:layout_marginTop="250dp"
+          android:layout_marginEnd="10dp"
+          android:paddingStart="9dp"
+          android:paddingTop="9dp"
+>>>>>>> a6d32f728ac6512d20effeec583046e8e405eb44
           android:text="@string/text_description2"
           android:textColor="@color/black"
           android:textSize="50sp"

@@ -26,8 +26,8 @@
           android:layout_gravity="center_horizontal"
           android:text="@string/text_1"
           android:layout_marginTop="50dp"
-          android:textColor="@color/white"
-          android:textSize="60sp"
+          android:textColor="@color/black"
+          android:textSize="70sp"
           android:textStyle="bold" />
 
       <ImageView
@@ -46,20 +46,32 @@
           android:layout_gravity="center_horizontal"
           android:text="@string/text_2"
           android:layout_marginBottom="10dp"
-          android:textColor="@color/white"
-          android:textSize="45sp" />
+          android:textColor="@color/black"
+          android:textSize="55sp" />
 
 
       <androidx.cardview.widget.CardView
           android:id="@+id/buy"
           android:layout_width="match_parent"
-          android:layout_height="613dp"
+          android:layout_height="1006dp"
           android:layout_margin="16dp"
           android:layout_marginTop="30dp"
           android:onClick="shop"
           android:orientation="horizontal"
           android:padding="9dp">
 
+          <TextView
+
+              android:id="@+id/order"
+              android:layout_width="match_parent"
+              android:layout_height="993dp"
+             android:layout_marginStart="360dp"
+              android:layout_marginTop="40dp"
+              android:onClick="what"
+              android:text="@string/text_order"
+              android:textColor="@color/black"
+              android:textSize="40sp"
+              android:textStyle="bold" />
 
           <TextView
 
@@ -67,12 +79,12 @@
               android:layout_width="match_parent"
               android:layout_height="match_parent"
               android:layout_gravity="right"
-              android:layout_marginTop="150dp"
+              android:layout_marginTop="190dp"
               android:onClick="what"
-              android:paddingStart="9dp"
+              android:paddingStart="15dp"
               android:paddingTop="2dp"
               android:text="@string/text_sub_total"
-              android:textColor="@color/material_500"
+              android:textColor="@color/black"
               android:textSize="40sp"
               android:textStyle="bold" />
 
@@ -82,12 +94,12 @@
               android:layout_width="match_parent"
               android:layout_height="169dp"
               android:layout_gravity="right"
-              android:layout_marginTop="250dp"
+              android:layout_marginTop="300dp"
               android:onClick="whats"
-              android:paddingStart="9dp"
+              android:paddingStart="15dp"
               android:paddingTop="2dp"
               android:text="@string/text_cost"
-              android:textColor="@color/material_500"
+              android:textColor="@color/black"
               android:textSize="40sp"
               android:textStyle="bold" />
 
@@ -97,12 +109,12 @@
               android:layout_width="match_parent"
               android:layout_height="368dp"
               android:layout_gravity="right"
-              android:layout_marginTop="350dp"
+              android:layout_marginTop="450dp"
               android:onClick="what1"
               android:paddingStart="9dp"
               android:paddingTop="2dp"
               android:text="@string/text_total"
-              android:textColor="@color/material_500"
+              android:textColor="@color/black"
               android:textSize="40sp"
               android:textStyle="bold" />
 
@@ -114,6 +126,18 @@
               android:onClick="send_data"
               android:layout_marginBottom="40dp"
               android:background="@drawable/icon_w">
+
+          </Button>
+
+
+          <Button
+              android:id="@+id/btn_w"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_gravity="bottom|center"
+              android:layout_marginBottom="40dp"
+              android:background="@drawable/icon_w"
+              android:onClick="send">
 
           </Button>
 

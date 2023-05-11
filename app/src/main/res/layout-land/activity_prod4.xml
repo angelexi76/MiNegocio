@@ -53,7 +53,7 @@
                 android:layout_marginTop="15dp"
                 android:layout_marginStart="30dp"
                 android:text="@string/text_product4"
-                android:textColor="@color/white"
+                android:textColor="@color/black"
                 android:textSize="45sp"
                 android:textStyle="bold" />
 
@@ -74,11 +74,10 @@
                         android:layout_height="match_parent"
                         android:layout_gravity="center"
                         android:layout_marginTop="250dp"
-                        android:background="@color/rosa"
                         android:paddingStart="15dp"
                         android:paddingTop="20dp"
                         android:text="@string/text_description4"
-                        android:textColor="@color/material_500"
+                        android:textColor="@color/black"
                         android:textSize="30sp"
                         android:textStyle="italic" />
                 </LinearLayout>
@@ -86,8 +85,13 @@
             </ScrollView>
 
             <ImageView
+<<<<<<< HEAD
                 android:layout_width="300dp"
                 android:layout_height="150dp"
+=======
+                android:layout_width="350dp"
+                android:layout_height="155dp"
+>>>>>>> a6d32f728ac6512d20effeec583046e8e405eb44
                 android:layout_gravity="center"
                 android:layout_marginTop="50dp"
                 android:layout_marginStart="10dp"
@@ -95,18 +99,22 @@
                 android:src="@drawable/cupc3" />
 
             <ImageView
-                android:layout_width="300dp"
+                android:layout_width="350dp"
                 android:layout_height="150dp"
                 android:layout_marginStart="5dp"
                 android:layout_marginTop="80dp"
                 android:src="@drawable/cupc_1" />
 
             <ImageView
-                android:layout_width="300dp"
+                android:layout_width="350dp"
                 android:layout_height="150dp"
                 android:layout_gravity="end"
                 android:layout_marginTop="80dp"
+<<<<<<< HEAD
                 android:layout_marginEnd="10dp"
+=======
+                android:layout_marginEnd="15dp"
+>>>>>>> a6d32f728ac6512d20effeec583046e8e405eb44
                 android:src="@drawable/cupc2" />
 
 

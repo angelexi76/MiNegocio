@@ -53,7 +53,7 @@
                 android:layout_marginTop="15dp"
                 android:layout_marginStart="30dp"
                 android:text="@string/text_product2"
-                android:textColor="@color/white"
+                android:textColor="@color/black"
                 android:textSize="45sp"
                 android:textStyle="bold" />
 
@@ -74,11 +74,10 @@
                         android:layout_height="match_parent"
                         android:layout_gravity="center"
                         android:layout_marginTop="250dp"
-                        android:background="@color/rosa"
                         android:paddingStart="15dp"
                         android:paddingTop="20dp"
                         android:text="@string/text_description2"
-                        android:textColor="@color/material_500"
+                        android:textColor="@color/black"
                         android:textSize="30sp"
                         android:textStyle="italic" />
                 </LinearLayout>
@@ -118,7 +117,7 @@
                 android:layout_marginTop="550dp"
                 android:paddingStart="15dp"
                 android:text="@string/text_price1"
-                android:textColor="@color/material_500"
+                android:textColor="@color/black"
                 android:textSize="30sp"
                 android:textStyle="bold" />
 
@@ -139,7 +138,7 @@
                     android:layout_height="50dp"
                     android:layout_marginStart="10dp"
                     android:background="@drawable/boton"
-                    android:backgroundTint="@color/material_500"
+                    android:backgroundTint="@color/black"
                     android:elevation="3dp"
                     android:onClick="subtract1"
                     android:padding="1dp"
@@ -168,7 +167,7 @@
                     android:layout_width="50dp"
                     android:layout_height="50dp"
                     android:background="@drawable/boton"
-                    android:backgroundTint="@color/material_500"
+                    android:backgroundTint="@color/black"
                     android:onClick="add1"
                     android:padding="1dp"
                     android:text="+"
@@ -186,7 +185,7 @@
                 android:layout_margin="6dp"
                 android:layout_marginBottom="30dp"
                 android:background="@drawable/boton"
-                android:backgroundTint="@color/material_500"
+                android:backgroundTint="@color/white"
                 android:onClick="buttonBuy"
                 android:text="@string/text_buy"
                 android:textSize="30dp" />
