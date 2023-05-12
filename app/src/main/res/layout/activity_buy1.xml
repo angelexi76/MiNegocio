@@ -24,7 +24,7 @@
         app:title="@string/text_1"
         app:backgroundTint="@null" />
 
-<!--Con el id se conecta el fragmento a la actividad en el main y el boton del whatsApp tambien debe ser llamado aca por su id-->
+<!--Con el id se conecta el fragmento a la actividad en el main-->
 
 
         <androidx.fragment.app.FragmentContainerView

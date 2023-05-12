@@ -130,16 +130,7 @@
           </Button>
 
 
-          <Button
-              android:id="@+id/btn_w"
-              android:layout_width="wrap_content"
-              android:layout_height="wrap_content"
-              android:layout_gravity="bottom|center"
-              android:layout_marginBottom="40dp"
-              android:background="@drawable/icon_w"
-              android:onClick="send">
 
-          </Button>
 
 
       </androidx.cardview.widget.CardView>

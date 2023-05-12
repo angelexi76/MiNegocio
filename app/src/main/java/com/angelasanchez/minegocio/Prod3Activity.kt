@@ -13,10 +13,13 @@ import com.angelasanchez.minegocio.R.drawable.cupc_1
 
 class Prod3Activity : AppCompatActivity() {
 
-
-
-
     private lateinit var btnBuy1:Button
+
+    //variables contador
+    var contador = 0
+
+    private lateinit var btn_sum: Button
+    private lateinit var btn_rest: Button
 
 
 
@@ -25,16 +28,42 @@ class Prod3Activity : AppCompatActivity() {
         setContentView(R.layout.activity_prod3)
         setSupportActionBar(findViewById(R.id.my_barra))
 
-
-
-
         btnBuy1 = findViewById<Button>(R.id.btnBuy1)
+
+        //contador
+
+        btn_sum = findViewById<Button>(R.id.btn_sum)
+
+        btn_rest = findViewById<Button>(R.id.btn_rest)
+
 
 
     }
 
 
+    fun add1(view: View) {
 
+
+
+        btn_sum.setOnClickListener{
+            contador++
+            contador
+            btn_sum.text=contador.toString()
+        }
+
+    }
+
+
+    fun subtract1(view: View) {
+
+
+        btn_rest.setOnClickListener {
+            contador--
+            contador
+            btn_rest.text=contador.toString()
+        }
+
+    }
 
 
 

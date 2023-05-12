@@ -12,12 +12,50 @@ import android.widget.Toast
 
 class Prod2Activity : AppCompatActivity() {
     private lateinit var btnBuy1:Button
+
+    var contador = 0
+
+    private lateinit var btn_sum: Button
+    private lateinit var btn_rest: Button
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_prod2)
         setSupportActionBar(findViewById(R.id.my_barra))
 
         btnBuy1 = findViewById<Button>(R.id.btnBuy1)
+
+
+
+        //contador
+
+        btn_sum = findViewById<Button>(R.id.btn_sum)
+
+        btn_rest = findViewById<Button>(R.id.btn_rest)
+
+    }
+
+    fun add1(view: View) {
+
+
+
+        btn_sum.setOnClickListener{
+            contador++
+            contador
+            btn_sum.text=contador.toString()
+        }
+
+    }
+
+
+    fun subtract1(view: View) {
+
+
+        btn_rest.setOnClickListener {
+            contador--
+            contador
+            btn_rest.text=contador.toString()
+        }
+
     }
 
     fun card2(View: View) {
