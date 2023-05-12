@@ -19,29 +19,15 @@ class BuyFragment : Fragment() {
     private lateinit var btn_w: Button
 
     override fun onCreate(savedInstanceState: Bundle?) {
-
-
         super.onCreate(savedInstanceState)
 
-
-
     }
-
-
-
-
-
-
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
         val fragment: View = inflater.inflate(R.layout.fragment_buy, container, false)
-
-
-
-
 
             val data1: TextView = fragment.findViewById(R.id.data1)
             val data2: TextView = fragment.findViewById(R.id.data2)
@@ -102,18 +88,19 @@ class BuyFragment : Fragment() {
 
     btn_w.setOnClickListener{
     }
-        val send = Intent(Intent.ACTION_SENDTO)
+        //val send = Intent(Intent.ACTION_SENDTO)
         val phoneNumber = "+3138322498"
         val message = "Welcome,to Mafe artisan pastry"
         val intent = Intent(Intent.ACTION_VIEW)
         intent.data = Uri.parse("https://wa.me/$phoneNumber/?text=$message")
 
-       startActivity(send)
+       startActivity(intent)
 
 }
 
 
 }
+
 
 
 
