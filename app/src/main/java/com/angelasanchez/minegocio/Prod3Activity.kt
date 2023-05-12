@@ -9,7 +9,8 @@ import android.view.MenuItem
 import android.view.View
 import android.widget.Button
 import android.widget.Toast
-import com.angelasanchez.minegocio.R.drawable.cupc_1
+import com.angelasanchez.minegocio.R.*
+
 
 class Prod3Activity : AppCompatActivity() {
 
@@ -25,16 +26,16 @@ class Prod3Activity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_prod3)
-        setSupportActionBar(findViewById(R.id.my_barra))
+        setContentView(layout.activity_prod3)
+        setSupportActionBar(findViewById(id.my_barra))
 
-        btnBuy1 = findViewById<Button>(R.id.btnBuy1)
+        btnBuy1 = findViewById<Button>(id.btnBuy1)
 
         //contador
 
-        btn_sum = findViewById<Button>(R.id.btn_sum)
+        btn_sum = findViewById<Button>(id.btn_sum)
 
-        btn_rest = findViewById<Button>(R.id.btn_rest)
+        btn_rest = findViewById<Button>(id.btn_rest)
 
 
 
@@ -94,13 +95,13 @@ class Prod3Activity : AppCompatActivity() {
     }
     //when evalua si el item q se pulso coincide con el  R.id.txv_action_search    si es true creamos la funcion anonima  -> q defina la accion a realizar
     override fun onOptionsItemSelected(item: MenuItem): Boolean =when(item.itemId) {
-        R.id.txv_action_search-> {
+        id.txv_action_search-> {
             Toast.makeText(this,R.string.text_action_search, Toast.LENGTH_LONG).show()
             true
 
         }
 
-        R.id.tvx_action_logout-> {
+        id.tvx_action_logout-> {
             Toast.makeText(this, R.string.text_action_logout, Toast.LENGTH_LONG).show()
             true
         }

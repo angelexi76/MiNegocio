@@ -85,7 +85,7 @@
                 android:src="@drawable/cake1" />
 
             <TextView
-                android:id="@+id/txv_more"
+
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_gravity="bottom|end"
@@ -120,7 +120,7 @@
                 android:layout_marginBottom="30dp"
                 android:background="@drawable/degraded_2"
                 android:gravity="center"
-                android:onClick="fruit1"
+                android:onClick="theme"
                 android:text="@string/text_product2"
                 android:textColor="@color/black"
                 android:textSize="35sp"
@@ -158,7 +158,7 @@
                 android:src="@drawable/tematico3" />
 
             <TextView
-                android:id="@+id/txv_more1"
+
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_gravity="bottom|end"
@@ -231,8 +231,9 @@
                 android:layout_marginEnd="10dp"
                 android:elevation="3dp"
                 android:src="@drawable/cake_favorito" />
+
             <TextView
-                android:id="@+id/txv_more2"
+
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_gravity="bottom|end"
@@ -304,8 +305,9 @@
             android:layout_marginEnd="9dp"
             android:elevation="3dp"
             android:src="@drawable/cupcakes" />
+
         <TextView
-            android:id="@+id/txv_more3"
+
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_gravity="bottom|end"

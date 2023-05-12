@@ -56,7 +56,9 @@ class Prod1Activity : AppCompatActivity() {
 
         btn_sum.setOnClickListener{
             contador++
+
             contador
+
            btn_sum.text=contador.toString()
         }
 
@@ -68,7 +70,9 @@ class Prod1Activity : AppCompatActivity() {
 
         btn_rest.setOnClickListener {
              contador--
+
              contador
+
             btn_rest.text=contador.toString()
         }
 
