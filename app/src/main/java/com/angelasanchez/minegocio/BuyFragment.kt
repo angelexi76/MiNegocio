@@ -102,13 +102,13 @@ class BuyFragment : Fragment() {
 
     btn_w.setOnClickListener{
     }
-        val send = Intent(Intent.ACTION_SENDTO)
+
         val phoneNumber = "+3138322498"
         val message = "Welcome,to Mafe artisan pastry"
         val intent = Intent(Intent.ACTION_VIEW)
         intent.data = Uri.parse("https://wa.me/$phoneNumber/?text=$message")
 
-       startActivity(send)
+       startActivity(intent)
 
 }
 
