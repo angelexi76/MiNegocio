@@ -115,12 +115,12 @@
 
             <LinearLayout
                 android:layout_width="160dp"
-                android:layout_height="wrap_content"
+                android:layout_height="60dp"
                 android:layout_gravity="end"
                 android:layout_marginTop="650dp"
                 android:layout_marginEnd="6dp"
                 android:background="@drawable/boton"
-                android:backgroundTint="@color/white"
+                android:backgroundTint="@color/rosa"
                 android:orientation="horizontal">
 
 
@@ -129,6 +129,7 @@
                     android:layout_width="50dp"
                     android:layout_height="50dp"
                     android:layout_marginStart="10dp"
+                    android:layout_marginTop="5dp"
                     android:background="@drawable/boton"
                     android:backgroundTint="@color/black"
                     android:onClick="sum3"
@@ -138,24 +139,22 @@
                     android:textSize="25dp" />
 
 
-                <TextView
 
-                    android:id="@+id/textView"
-                    android:layout_width="40dp"
-                    android:layout_height="40dp"
-                    android:background="@drawable/boton"
-                    android:gravity="center"
-                    android:onClick="text3"
-                    android:padding="1dp"
-                    android:text="0"
-                    android:textColor="@color/black"
-                    android:textSize="25sp"
-                    android:textStyle="bold" />
+                <ImageView
+                    android:layout_width="45dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="86dp"
+                    android:background="@color/rosa"
+                    android:onClick="buttonBuy"
+                    android:padding="2dp"
+                    android:src="@drawable/icon_pastel" />
 
                 <Button
                     android:id="@+id/button3"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
+                    android:layout_marginTop="5dp"
                     android:background="@drawable/boton"
                     android:backgroundTint="@color/black"
                     android:onClick="rest3"

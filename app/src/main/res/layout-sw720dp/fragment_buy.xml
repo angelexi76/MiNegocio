@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/degraded1"
@@ -112,6 +118,17 @@
               android:textSize="40sp"
               android:textStyle="bold" />
 
+          <Button
+              android:id="@+id/btn_w"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_gravity="bottom|center"
+              android:onClick="send_data"
+              android:layout_marginBottom="40dp"
+              android:background="@drawable/icon_w">
+
+          </Button>
+
 
           <Button
               android:id="@+id/btn_w"
@@ -131,3 +148,4 @@
 
   </LinearLayout>
 </LinearLayout>
+   </ScrollView>

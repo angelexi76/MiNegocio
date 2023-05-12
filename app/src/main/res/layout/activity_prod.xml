@@ -54,12 +54,15 @@
                 android:textSize="35sp"
                 android:textStyle="bold" />
 
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
 
             <TextView
                 android:layout_width="280dp"
-                android:layout_height="156dp"
+                android:layout_height="158dp"
                 android:layout_gravity="left"
-                android:layout_marginTop="50dp"
+                android:layout_marginTop="53dp"
                 android:layout_marginBottom="5dp"
                 android:background="@color/white"
                 android:paddingStart="9dp"
@@ -69,7 +72,7 @@
                 android:textColor="@color/black"
                 android:textSize="25sp"
                 android:textStyle="bold" />
-
+            </ScrollView>
 
             <ImageView
                 android:id="@+id/image1"
@@ -123,19 +126,26 @@
                 android:textSize="35sp"
                 android:textStyle="bold" />
 
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
             <TextView
                 android:layout_width="280dp"
-                android:layout_height="150dp"
+                android:layout_height="158dp"
                 android:layout_gravity="left"
-                android:layout_marginTop="50dp"
+                android:layout_marginTop="53dp"
+                android:layout_marginBottom="5dp"
                 android:background="@color/white"
+                android:paddingTop="9dp"
+                android:paddingBottom="19dp"
                 android:paddingStart="9dp"
-                android:paddingBottom="10dp"
                 android:text="@string/text_description_theme"
                 android:textColor="@color/black"
                 android:textSize="25sp"
                 android:textStyle="bold" />
 
+            </ScrollView>
 
             <ImageView
                 android:id="@+id/image2"
@@ -176,12 +186,17 @@
                         android:background="@drawable/degraded_2"
                         app:cardBackgroundColor="@color/black">
 
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
             <TextView
 
                 android:layout_width="280dp"
                 android:layout_height="214dp"
                 android:layout_gravity="left"
-                android:layout_marginTop="52dp"
+                android:layout_marginTop="53dp"
+                android:layout_marginBottom="5dp"
                 android:background="@color/white"
                 android:paddingStart="9dp"
                 android:paddingTop="20dp"
@@ -190,6 +205,8 @@
                 android:textColor="@color/black"
                 android:textSize="25sp"
                 android:textStyle="bold" />
+
+            </ScrollView>
 
             <TextView
             android:id="@+id/favor"
@@ -243,23 +260,26 @@
         android:paddingBottom="3dp"
         app:cardBackgroundColor="@color/black">
 
-
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
 
                 <TextView
 
                     android:layout_width="280dp"
                     android:layout_height="250dp"
                     android:layout_gravity="left"
-                    android:layout_marginBottom="2dp"
+                    android:layout_marginTop="53dp"
+                    android:layout_marginBottom="5dp"
                     android:background="@color/white"
                     android:paddingStart="9dp"
-                    android:paddingTop="62dp"
+                    android:paddingTop="50dp"
                     android:text="@string/text_description_cup"
                     android:textColor="@color/black"
                     android:textSize="25sp"
                     android:textStyle="bold" />
-
-
+        </ScrollView>
 
         <TextView
             android:id="@+id/cup1"
@@ -280,7 +300,7 @@
             android:layout_width="100dp"
             android:layout_height="160dp"
             android:layout_gravity="top|end"
-            android:layout_marginTop="50dp"
+            android:layout_marginTop="60dp"
             android:layout_marginEnd="9dp"
             android:elevation="3dp"
             android:src="@drawable/cupcakes" />

@@ -85,11 +85,16 @@
             </ScrollView>
 
             <ImageView
+<<<<<<< HEAD
+                android:layout_width="300dp"
+                android:layout_height="150dp"
+=======
                 android:layout_width="350dp"
                 android:layout_height="155dp"
+>>>>>>> a6d32f728ac6512d20effeec583046e8e405eb44
                 android:layout_gravity="center"
                 android:layout_marginTop="50dp"
-                android:layout_marginStart="20dp"
+                android:layout_marginStart="10dp"
                 android:layout_marginBottom="150dp"
                 android:src="@drawable/cupc3" />
 
@@ -105,7 +110,11 @@
                 android:layout_height="150dp"
                 android:layout_gravity="end"
                 android:layout_marginTop="80dp"
+<<<<<<< HEAD
+                android:layout_marginEnd="10dp"
+=======
                 android:layout_marginEnd="15dp"
+>>>>>>> a6d32f728ac6512d20effeec583046e8e405eb44
                 android:src="@drawable/cupc2" />
 
 
@@ -124,12 +133,12 @@
 
             <LinearLayout
                 android:layout_width="160dp"
-                android:layout_height="wrap_content"
+                android:layout_height="60dp"
                 android:layout_gravity="end"
                 android:layout_marginTop="600dp"
                 android:layout_marginEnd="15dp"
                 android:background="@drawable/boton"
-                android:backgroundTint="@color/white"
+                android:backgroundTint="@color/rosa"
                 android:orientation="horizontal">
 
                 <Button
@@ -137,6 +146,7 @@
                     android:layout_width="50dp"
                     android:layout_height="50dp"
                     android:layout_marginStart="10dp"
+                    android:layout_marginTop="5dp"
                     android:background="@drawable/boton"
                     android:backgroundTint="@color/black"
                     android:elevation="3dp"
@@ -147,25 +157,22 @@
                     android:textSize="30dp" />
 
 
-                <TextView
-
-                    android:id="@+id/textBox"
-                    android:layout_width="40dp"
-                    android:layout_height="40dp"
-                    android:background="@drawable/boton"
-                    android:gravity="center"
-                    android:onClick="textcontador"
-                    android:padding="1dp"
-                    android:text="0"
-                    android:textColor="@color/black"
-                    android:textSize="25sp"
-                    android:textStyle="bold" />
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="90dp"
+                    android:background="@color/rosa"
+                    android:onClick="buttonBuy"
+                    android:padding="2dp"
+                    android:src="@drawable/icon_pastel" />
 
 
                 <Button
                     android:id="@+id/btn_sum"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
+                    android:layout_marginTop="5dp"
                     android:background="@drawable/boton"
                     android:backgroundTint="@color/black"
                     android:onClick="add1"

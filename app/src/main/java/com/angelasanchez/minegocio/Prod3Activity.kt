@@ -13,7 +13,7 @@ import com.angelasanchez.minegocio.R.drawable.cupc_1
 
 class Prod3Activity : AppCompatActivity() {
 
-    private lateinit var slider:View
+
 
 
     private lateinit var btnBuy1:Button
@@ -26,8 +26,6 @@ class Prod3Activity : AppCompatActivity() {
         setSupportActionBar(findViewById(R.id.my_barra))
 
 
-
-        slider =findViewById<Button>(R.id.slider)
 
 
         btnBuy1 = findViewById<Button>(R.id.btnBuy1)

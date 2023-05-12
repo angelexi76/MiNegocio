@@ -59,6 +59,38 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="45dp"
+<<<<<<< HEAD
+            android:paddingStart="6dp"
+            android:paddingTop="6dp"
+            android:text="@string/text_description4"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:textStyle="italic" />
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="190dp"
+            android:src="@drawable/cupc3" />
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="80dp"
+            android:src="@drawable/cupc_1" />
+
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:layout_gravity="end"
+            android:layout_marginTop="80dp"
+            android:layout_marginEnd="5dp"
+            android:src="@drawable/cupc2" />
+
+=======
             android:paddingStart="9dp"
             android:paddingTop="9dp"
             android:text="@string/text_description4"
@@ -66,15 +98,23 @@
             android:textSize="50sp"
             android:textStyle="italic" />
 
+>>>>>>> a6d32f728ac6512d20effeec583046e8e405eb44
         <TextView
 
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="6dp"
+<<<<<<< HEAD
+            android:layout_marginTop="800dp"
+            android:text="@string/text_price1"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+=======
             android:layout_marginTop="1200dp"
             android:text="@string/text_price1"
             android:textColor="@color/black"
             android:textSize="40sp"
+>>>>>>> a6d32f728ac6512d20effeec583046e8e405eb44
             android:textStyle="bold" />
 
         <ImageView
@@ -104,21 +144,36 @@
 
 
         <LinearLayout
+<<<<<<< HEAD
+            android:layout_width="170dp"
+            android:layout_height="60dp"
+            android:layout_gravity="end"
+            android:layout_marginTop="900dp"
+            android:layout_marginEnd="15dp"
+=======
             android:layout_width="230dp"
             android:layout_height="wrap_content"
             android:layout_gravity="end"
             android:layout_marginTop="1300dp"
             android:layout_marginEnd="6dp"
+>>>>>>> a6d32f728ac6512d20effeec583046e8e405eb44
             android:background="@drawable/boton"
-            android:backgroundTint="@color/white"
+            android:backgroundTint="@color/rosa"
             android:orientation="horizontal">
 
 
             <Button
                 android:id="@+id/button2"
+<<<<<<< HEAD
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="5dp"
+=======
                 android:layout_width="70dp"
                 android:layout_height="70dp"
                 android:layout_marginStart="20dp"
+>>>>>>> a6d32f728ac6512d20effeec583046e8e405eb44
                 android:textColor="@color/white"
                 android:padding="1dp"
                 android:background="@drawable/boton"
@@ -128,6 +183,23 @@
                 />
 
 
+<<<<<<< HEAD
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="end"
+                android:layout_marginTop="90dp"
+                android:background="@color/rosa"
+                android:onClick="buttonBuy"
+                android:padding="2dp"
+                android:src="@drawable/icon_pastel" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="5dp"
+=======
             <TextView
 
                 android:id="@+id/textView"
@@ -145,6 +217,7 @@
                 android:id="@+id/button3"
                 android:layout_width="70dp"
                 android:layout_height="70dp"
+>>>>>>> a6d32f728ac6512d20effeec583046e8e405eb44
                 android:textColor="@color/white"
                 android:background="@drawable/boton"
                 android:backgroundTint="@color/black"

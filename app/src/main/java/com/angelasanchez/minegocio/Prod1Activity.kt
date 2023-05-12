@@ -23,8 +23,8 @@ class Prod1Activity : AppCompatActivity() {
     private lateinit var btn_buy1: Button
 
     //variables contador
-    var contador: Int = 0
-    private lateinit var textBox: TextView
+    var contador = 0
+
     private lateinit var btn_sum: Button
     private lateinit var btn_rest: Button
 
@@ -37,15 +37,15 @@ class Prod1Activity : AppCompatActivity() {
         setSupportActionBar(findViewById(id.my_barra))
 
         //button buy
-        btn_buy1 = findViewById(R.id.btn_buy1)
+        btn_buy1 = findViewById(id.btn_buy1)
 
 //contador
 
-        btn_sum = findViewById<Button>(R.id.btn_sum)
+        btn_sum = findViewById<Button>(id.btn_sum)
 
-        btn_rest = findViewById<Button>(R.id.btn_rest)
+        btn_rest = findViewById<Button>(id.btn_rest)
 
-        textBox=findViewById<TextView>(R.id.textBox)
+
 
     }
 
@@ -56,8 +56,8 @@ class Prod1Activity : AppCompatActivity() {
 
         btn_sum.setOnClickListener{
             contador++
-            btn_sum?.text.toString()
-
+            contador
+           btn_sum.text=contador.toString()
         }
 
     }
@@ -67,12 +67,13 @@ class Prod1Activity : AppCompatActivity() {
 
 
         btn_rest.setOnClickListener {
-            contador--
-            btn_rest?.text.toString()
+             contador--
+             contador
+            btn_rest.text=contador.toString()
         }
 
     }
-    //la variable contador es un entero,se agrega tostring para convertirla en texto al actualizar el   textbox q es el textview
+    //la variable contador es un entero,se agrega tostring para convertirla en texto
 
 
     @SuppressLint("SuspiciousIndentation")
