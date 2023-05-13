@@ -30,7 +30,7 @@
 
 
         <androidx.cardview.widget.CardView
-            android:id="@+id/card"
+
             android:layout_width="match_parent"
             android:layout_height="804dp"
             android:layout_margin="16dp"
@@ -74,7 +74,6 @@
                         android:layout_height="match_parent"
                         android:layout_gravity="center"
                         android:layout_marginTop="250dp"
-                        android:background="@color/rosa"
                         android:paddingStart="15dp"
                         android:paddingTop="20dp"
                         android:text="@string/text_description2"
@@ -184,7 +183,7 @@
                 android:layout_margin="6dp"
                 android:layout_marginBottom="30dp"
                 android:background="@drawable/boton"
-                android:backgroundTint="@color/material_500"
+                android:backgroundTint="@color/white"
                 android:onClick="buttonBuy"
                 android:text="@string/text_buy"
                 android:textSize="30dp" />

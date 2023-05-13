@@ -114,11 +114,12 @@
             android:orientation="horizontal">
 
             <Button
-                android:id="@+id/button3"
+                android:id="@+id/btn_rest"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_marginTop="5dp"
                 android:layout_marginStart="10dp"
+                android:onClick="subtract1"
                 android:textColor="@color/white"
                 android:background="@drawable/boton"
                 android:backgroundTint="@color/black"
@@ -136,13 +137,14 @@
                 android:padding="2dp"
                 android:src="@drawable/icon_pastel" />
             <Button
-                android:id="@+id/button2"
+                android:id="@+id/btn_sum"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_marginTop="5dp"
                 android:layout_marginEnd="10dp"
                 android:textColor="@color/white"
                 android:padding="1dp"
+                android:onClick="add1"
                 android:background="@drawable/boton"
                 android:backgroundTint="@color/black"
                 android:text="+"

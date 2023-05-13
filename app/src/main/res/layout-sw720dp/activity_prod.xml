@@ -84,7 +84,7 @@
                 android:src="@drawable/cake1" />
 
             <TextView
-                android:id="@+id/txv_more"
+
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_gravity="bottom|end"
@@ -156,7 +156,7 @@
                 android:src="@drawable/tematico3" />
 
             <TextView
-                android:id="@+id/txv_more1"
+
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_gravity="bottom|end"
@@ -230,7 +230,7 @@
                 android:elevation="3dp"
                 android:src="@drawable/cake_favorito" />
             <TextView
-                android:id="@+id/txv_more2"
+
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_gravity="bottom|end"
@@ -302,7 +302,7 @@
             android:elevation="3dp"
             android:src="@drawable/cupcakes" />
         <TextView
-            android:id="@+id/txv_more3"
+
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_gravity="bottom|end"
@@ -316,7 +316,7 @@
             android:textColor="@color/material_500"
             android:textSize="40dp"
             />
-        />
+
 
         </androidx.cardview.widget.CardView>
 

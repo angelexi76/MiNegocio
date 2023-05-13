@@ -78,14 +78,14 @@
                 android:layout_height="300dp"
                 android:layout_gravity="center"
                 android:layout_marginBottom="170dp"
-                android:src="@drawable/cupc3" />
+                android:src="@drawable/favorito2" />
 
             <ImageView
                 android:layout_width="250dp"
                 android:layout_height="300dp"
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="180dp"
-                android:src="@drawable/cupc2" />
+                android:src="@drawable/favorite" />
 
 
             <ImageView

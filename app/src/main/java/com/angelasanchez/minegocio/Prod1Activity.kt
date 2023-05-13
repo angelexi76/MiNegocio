@@ -13,9 +13,7 @@ import com.angelasanchez.minegocio.R.*
 import com.angelasanchez.minegocio.R.id.btn_buy1
 
 
-//private operator fun Int.plus(s: String) {
 
-//}
 
 class Prod1Activity : AppCompatActivity() {
 
@@ -42,14 +40,10 @@ class Prod1Activity : AppCompatActivity() {
 //contador
 
         btn_sum = findViewById<Button>(id.btn_sum)
-
         btn_rest = findViewById<Button>(id.btn_rest)
 
 
-
     }
-
-
     fun add1(view: View) {
 
 

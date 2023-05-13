@@ -36,7 +36,7 @@
 
 
         <androidx.cardview.widget.CardView
-            android:id="@+id/card3"
+
             android:layout_width="match_parent"
             android:layout_height="1635dp"
             android:layout_margin="10dp"
@@ -54,7 +54,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="30dp"
-                android:text="@string/text_product3"
+                android:text="@string/text_product4"
                 android:textColor="@color/black"
                 android:textSize="90sp"
                 android:textStyle="bold" />

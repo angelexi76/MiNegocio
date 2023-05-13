@@ -321,7 +321,7 @@
             android:textColor="@color/black"
             android:textSize="25dp"
             />
-        />
+
 
         </androidx.cardview.widget.CardView>
 

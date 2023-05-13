@@ -30,7 +30,7 @@
 
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/card"
+
                 android:layout_width="match_parent"
                 android:layout_height="1604dp"
                 android:layout_margin="9dp"
@@ -109,8 +109,8 @@
 
 
                 <LinearLayout
-                    android:layout_width="200dp"
-                    android:layout_height="70dp"
+                    android:layout_width="250dp"
+                    android:layout_height="80dp"
                     android:layout_gravity="end"
                     android:layout_marginTop="1350dp"
                     android:layout_marginEnd="16dp"
@@ -120,8 +120,8 @@
 
                     <Button
                         android:id="@+id/btn_rest"
-                        android:layout_width="60dp"
-                        android:layout_height="60dp"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
                         android:layout_marginStart="10dp"
                         android:layout_marginTop="5dp"
                         android:background="@drawable/boton"
@@ -135,10 +135,11 @@
 
 
                     <ImageView
-                        android:layout_width="50dp"
-                        android:layout_height="50dp"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
                         android:layout_gravity="end"
                         android:layout_marginTop="110dp"
+                        android:layout_marginStart="12dp"
                         android:background="@color/rosa"
                         android:onClick="buttonBuy"
                         android:padding="2dp"
@@ -147,10 +148,11 @@
 
                     <Button
                         android:id="@+id/btn_sum"
-                        android:layout_width="60dp"
-                        android:layout_height="60dp"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
                         android:layout_marginTop="5dp"
                         android:layout_marginEnd="6dp"
+                        android:layout_marginStart="12dp"
                         android:background="@drawable/boton"
                         android:backgroundTint="@color/black"
                         android:onClick="add1"
