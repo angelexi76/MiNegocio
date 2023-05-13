@@ -2,14 +2,16 @@ package com.angelasanchez.minegocio
 
 import android.annotation.SuppressLint
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.Menu
-import android.view.MenuItem
-import android.view.View
+import android.view.*
 import android.widget.Button
+import android.widget.TextView
 import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
+import androidx.fragment.app.Fragment
 import com.angelasanchez.minegocio.R.*
+import com.angelasanchez.minegocio.R.id.btn_buy1
+
 
 class Prod2Activity : AppCompatActivity() {
 
@@ -86,13 +88,13 @@ class Prod2Activity : AppCompatActivity() {
     }
     //when evalua si el item q se pulso coincide con el  R.id.txv_action_search    si es true creamos la funcion anonima  -> q defina la accion a realizar
     override fun onOptionsItemSelected(item: MenuItem): Boolean =when(item.itemId) {
-        id.txv_action_search-> {
+       R.id.txv_action_search-> {
             Toast.makeText(this,R.string.text_action_search, Toast.LENGTH_LONG).show()
             true
 
         }
 
-        id.tvx_action_logout-> {
+        R.id.tvx_action_logout-> {
             Toast.makeText(this, R.string.text_action_logout, Toast.LENGTH_LONG).show()
             true
         }

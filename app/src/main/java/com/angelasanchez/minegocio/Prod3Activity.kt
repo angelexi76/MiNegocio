@@ -69,13 +69,13 @@ class Prod3Activity : AppCompatActivity() {
 
 
 
-    fun card3(View: View) {
+    //fun card3(View: View) {
 
 
-        val cakes = Intent(this, Prod3Activity::class.java)
-        startActivity(cakes)
+       // val cakes = Intent(this, Prod3Activity::class.java)
+       // startActivity(cakes)
 
-    }
+    //}
 
 
     @SuppressLint("SuspiciousIndentation")
