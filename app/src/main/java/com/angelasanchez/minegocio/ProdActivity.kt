@@ -32,35 +32,35 @@ class ProdActivity : AppCompatActivity() {
 
     }
 
-    fun fruit1(View: View) {
+        fun fruit1(View: View) {
 
-        fruit.setOnClickListener {
+                fruit.setOnClickListener {
 
-        }
-        val fruit1 = Intent(this, Prod1Activity::class.java)
-        startActivity(fruit1)
-
-    }
-
-    fun theme(View: View) {
-
-        them.setOnClickListener {
+                }
+                val fruit1 = Intent(this, Prod1Activity::class.java)
+                startActivity(fruit1)
 
         }
-        val themes = Intent(this, Prod2Activity::class.java)
-        startActivity(themes)
 
-    }
+        fun theme(View: View) {
 
-    fun cake(View: View) {
+                them.setOnClickListener {
 
-        favor.setOnClickListener {
+                }
+                val themes = Intent(this, Prod2Activity::class.java)
+                startActivity(themes)
 
         }
-        val cakes = Intent(this, Prod3Activity::class.java)
-        startActivity(cakes)
 
-    }
+        fun cake(View: View) {
+
+                favor.setOnClickListener {
+
+                }
+                val cakes = Intent(this, Prod3Activity::class.java)
+                startActivity(cakes)
+
+        }
 
         fun cup(View: View) {
 

@@ -1,16 +1,16 @@
 package com.angelasanchez.minegocio
 
+
 import android.annotation.SuppressLint
 import android.content.Intent
-import android.os.Bundle
-import android.view.*
-import android.widget.Button
-import android.widget.TextView
-import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import androidx.fragment.app.Fragment
+import android.os.Bundle
+import android.view.Menu
+import android.view.MenuItem
+import android.view.View
+import android.widget.Button
+import android.widget.Toast
 import com.angelasanchez.minegocio.R.*
-import com.angelasanchez.minegocio.R.id.btn_buy1
 
 
 class Prod2Activity : AppCompatActivity() {
@@ -28,8 +28,6 @@ class Prod2Activity : AppCompatActivity() {
 
         btnBuy1 = findViewById<Button>(id.btnBuy1)
 
-
-
         //contador
 
         btn_sum = findViewById<Button>(id.btn_sum)
@@ -40,8 +38,6 @@ class Prod2Activity : AppCompatActivity() {
 
     fun add1(view: View) {
 
-
-
         btn_sum.setOnClickListener{
             contador++
 
@@ -49,12 +45,10 @@ class Prod2Activity : AppCompatActivity() {
 
             btn_sum.text=contador.toString()
         }
-
     }
 
 
     fun subtract1(view: View) {
-
 
         btn_rest.setOnClickListener {
             contador--

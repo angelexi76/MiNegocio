@@ -119,7 +119,7 @@
                 android:layout_marginBottom="30dp"
                 android:background="@drawable/degraded_2"
                 android:gravity="center"
-                android:onClick="fruit1"
+                android:onClick="theme"
                 android:text="@string/text_product2"
                 android:textColor="@color/white"
                 android:textSize="80sp"
