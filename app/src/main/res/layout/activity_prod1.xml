@@ -175,7 +175,7 @@
                     android:backgroundTint="@color/white"
                     android:onClick="buttonBuy"
                     android:text="@string/text_buy"
-                    android:textSize="25dp" />
+                    android:textSize="26dp" />
 
 
             </androidx.cardview.widget.CardView>

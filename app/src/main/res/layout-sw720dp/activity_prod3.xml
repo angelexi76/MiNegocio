@@ -159,16 +159,8 @@
                     android:textSize="35dp" />
 
 
-
-
-
-
-
-
-
-
-
             </LinearLayout>
+
 
             <Button
                 android:id="@+id/btn_buy1"
@@ -181,7 +173,7 @@
                 android:backgroundTint="@color/white"
                 android:onClick="buttonBuy"
                 android:text="@string/text_buy"
-                android:textSize="25dp" />
+                android:textSize="26dp" />
 
         </androidx.cardview.widget.CardView>
     </LinearLayout>
