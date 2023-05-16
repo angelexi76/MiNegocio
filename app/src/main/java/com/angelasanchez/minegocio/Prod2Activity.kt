@@ -27,7 +27,7 @@ class Prod2Activity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
 
         setContentView(layout.activity_prod2)
-        setSupportActionBar(findViewById(id.my_barra))
+        setSupportActionBar(findViewById(Rid.my_barra))
 
         btnBuy1 = findViewById<Button>(R.id.btnBuy1)
 
