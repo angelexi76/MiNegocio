@@ -13,7 +13,7 @@ import com.angelasanchez.minegocio.R.*
 
 class Prod3Activity : AppCompatActivity() {
 
-    private lateinit var btnBuy1: Button
+    private lateinit var btn_buy1: Button
 
 
     //variables contador
@@ -27,7 +27,7 @@ class Prod3Activity : AppCompatActivity() {
         setContentView(layout.activity_prod3)
         setSupportActionBar(findViewById(id.my_barra))
 
-        btnBuy1 = findViewById<Button>(id.btnBuy1)
+        btn_buy1 = findViewById<Button>(id.btn_buy1)
 
         //contador
 
@@ -64,7 +64,7 @@ class Prod3Activity : AppCompatActivity() {
     @SuppressLint("SuspiciousIndentation")
     fun buttonBuy(view: View){
 
-        btnBuy1.setOnClickListener {
+        btn_buy1.setOnClickListener {
 
         }
         val buys = Intent(this, BuyActivity1::class.java)

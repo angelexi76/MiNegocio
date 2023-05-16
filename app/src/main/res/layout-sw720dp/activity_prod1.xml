@@ -165,7 +165,7 @@
                 </LinearLayout>
 
                 <Button
-                    android:id="@+id/btnBuy1"
+                    android:id="@+id/btn_buy1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="bottom|center"
