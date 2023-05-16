@@ -71,14 +71,14 @@
                     <TextView
 
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent"
+                        android:layout_height="250dp"
                         android:layout_gravity="center"
                         android:layout_marginTop="250dp"
-                        android:paddingStart="15dp"
-                        android:paddingTop="20dp"
+                        android:paddingStart="9dp"
+                        android:paddingTop="9dp"
                         android:text="@string/text_description2"
                         android:textColor="@color/black"
-                        android:textSize="30sp"
+                        android:textSize="35sp"
                         android:textStyle="italic" />
                 </LinearLayout>
 
@@ -88,7 +88,7 @@
                 android:layout_width="300dp"
                 android:layout_height="155dp"
                 android:layout_gravity="center"
-                android:layout_marginTop="50dp"
+                android:layout_marginTop="30dp"
                 android:layout_marginStart="20dp"
                 android:layout_marginBottom="150dp"
                 android:src="@drawable/theme" />
@@ -114,7 +114,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="15dp"
-                android:layout_marginTop="550dp"
+                android:layout_marginTop="500dp"
                 android:paddingStart="15dp"
                 android:text="@string/text_price1"
                 android:textColor="@color/black"
@@ -182,7 +182,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="bottom|center"
                 android:layout_margin="6dp"
-                android:layout_marginBottom="30dp"
+                android:layout_marginBottom="40dp"
                 android:background="@drawable/boton"
                 android:backgroundTint="@color/white"
                 android:onClick="buttonBuy"

@@ -21,12 +21,15 @@ class Prod2Activity : AppCompatActivity() {
 
     private lateinit var btn_sum: Button
     private lateinit var btn_rest: Button
+
+    @SuppressLint("MissingInflatedId")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
         setContentView(layout.activity_prod2)
         setSupportActionBar(findViewById(id.my_barra))
 
-        btnBuy1 = findViewById<Button>(id.btnBuy1)
+        btnBuy1 = findViewById<Button>(R.id.btnBuy1)
 
         //contador
 
