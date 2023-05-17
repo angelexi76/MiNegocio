@@ -24,6 +24,8 @@
         app:title="@string/text_1"
         app:backgroundTint="@null" />
 
+
+
 <!--Con el id se conecta el fragmento a la actividad en el main-->
 
 
@@ -31,14 +33,30 @@
             android:id="@+id/fragment_container_view"
             android:name="com.angelasanchez.minegocio.BuyFragment"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            tools:layout="@layout/fragment_buy"
-            />
+            android:layout_height="891dp"
+            tools:layout="@layout/fragment_buy" />
+
 
 
 
 
     </LinearLayout>
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+    <Button
+        android:id="@+id/btn_w"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="290dp"
+        android:layout_gravity="center_vertical"
+        android:onClick="send"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/icon_w">
 
+    </Button>
+
+    </LinearLayout>
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

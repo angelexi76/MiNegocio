@@ -1,5 +1,6 @@
 package com.angelasanchez.minegocio
 
+import android.annotation.SuppressLint
 import android.content.Intent
 import android.net.Uri
 
@@ -13,13 +14,13 @@ import com.angelasanchez.minegocio.R.id.*
 //conexion del fragment a la activity por medio del id es llamado//
 class BuyActivity1 : AppCompatActivity() {
 
-
+    private lateinit var btn_w: Button
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(layout.activity_buy1)
 
-
+        btn_w = findViewById(id.btn_w)
 
 
         if (savedInstanceState == null) {
@@ -33,7 +34,22 @@ class BuyActivity1 : AppCompatActivity() {
 
     }
 
+// La forma correcta de establecer el paquete de destino en el intent es utilizando
+// la instancia intent creada previamente, en lugar de utilizar la clase Intent
 
+
+    @SuppressLint("QueryPermissionsNeeded")
+    fun send(view: View){
+        btn_w.setOnClickListener{
+
+            val phoneNumber = "+3138322498"
+            val message = "Welcome,to Mafe artisan pastry"
+            val intent = Intent(Intent.ACTION_VIEW)
+            intent.data = Uri.parse("https://wa.me/$phoneNumber/?text=$message")
+            intent.setPackage("com.whatsapp");
+            startActivity(intent)
+        }
+    }
 
     }
 

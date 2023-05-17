@@ -16,7 +16,7 @@ import android.widget.TextView
 @Suppress("UseExpressionBody")
 class BuyFragment : Fragment() {
 
-    private lateinit var btn_w: Button
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
@@ -33,7 +33,7 @@ class BuyFragment : Fragment() {
             val data2: TextView = fragment.findViewById(R.id.data2)
             val data3: TextView = fragment.findViewById(R.id.data3)
 
-            btn_w = fragment.findViewById(R.id.btn_w)
+
 
             data1.setOnClickListener(View.OnClickListener {
                 val data = Bundle()
@@ -82,19 +82,16 @@ class BuyFragment : Fragment() {
             return fragment
         }
 
-        @SuppressLint("QueryPermissionsNeeded")
-        fun send(view: View){
-            btn_w.setOnClickListener{
-
-                val phoneNumber = "+3138322498"
-                val message = "Welcome,to Mafe artisan pastry"
-                val intent = Intent(Intent.ACTION_VIEW)
-                intent.data = Uri.parse("https://wa.me/$phoneNumber/?text=$message")
-                startActivity(intent)
-            }
-        }
 
     }
+
+//Intent intent = new Intent(Intent.ACTION_VIEW);
+//String uri = "whatsapp://send?phone=" + "codigo pais + tu numero ej: 59165868685" + "&text=" + "Este es el mensaje para enviar";
+//intent.setData(Uri.parse(uri));
+//startActivity(intent);
+
+
+
 
 
 

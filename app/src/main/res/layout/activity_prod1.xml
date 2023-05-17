@@ -134,13 +134,13 @@
                         android:padding="1dp"
                         android:text="-"
                         android:textColor="@color/white"
-                        android:textSize="25dp" />
+                        android:textSize="30dp" />
 
                     <ImageView
-                        android:layout_width="45dp"
+                        android:layout_width="50dp"
                         android:layout_height="50dp"
                         android:layout_gravity="end"
-                        android:layout_marginTop="86dp"
+                        android:layout_marginTop="100dp"
                         android:background="@color/rosa"
                         android:onClick="buttonBuy"
                         android:padding="2dp"
@@ -159,7 +159,7 @@
                         android:padding="1dp"
                         android:text="+"
                         android:textColor="@color/white"
-                        android:textSize="25dp" />
+                        android:textSize="30dp" />
 
 
                 </LinearLayout>

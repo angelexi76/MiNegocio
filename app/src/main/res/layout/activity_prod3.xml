@@ -125,20 +125,19 @@
 
 
                 <Button
-                    android:id="@+id/button2"
+                    android:id="@+id/btn_rest"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
                     android:layout_marginStart="10dp"
                     android:layout_marginTop="5dp"
                     android:background="@drawable/boton"
                     android:backgroundTint="@color/black"
-                    android:onClick="sum3"
+                    android:elevation="3dp"
+                    android:onClick="subtract1"
                     android:padding="1dp"
-                    android:text="+"
+                    android:text="-"
                     android:textColor="@color/white"
                     android:textSize="25dp" />
-
-
 
                 <ImageView
                     android:layout_width="45dp"
@@ -150,19 +149,20 @@
                     android:padding="2dp"
                     android:src="@drawable/icon_pastel" />
 
+
                 <Button
-                    android:id="@+id/button3"
+                    android:id="@+id/btn_sum"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
                     android:layout_marginTop="5dp"
+                    android:layout_marginEnd="15dp"
                     android:background="@drawable/boton"
                     android:backgroundTint="@color/black"
-                    android:onClick="rest3"
+                    android:onClick="add1"
                     android:padding="1dp"
-                    android:text="-"
+                    android:text="+"
                     android:textColor="@color/white"
                     android:textSize="25dp" />
-
 
             </LinearLayout>
 
