@@ -81,22 +81,7 @@ class BuyFragment : Fragment() {
         }
 
 
-//send data a whatsapp
-    fun send_data(view: View){
 
-
-
-    btn_w.setOnClickListener{
-    }
-        //val send = Intent(Intent.ACTION_SENDTO)
-        val phoneNumber = "+3138322498"
-        val message = "Welcome,to Mafe artisan pastry"
-        val intent = Intent(Intent.ACTION_VIEW)
-        intent.data = Uri.parse("https://wa.me/$phoneNumber/?text=$message")
-
-       startActivity(intent)
-
-}
 
 
 }
