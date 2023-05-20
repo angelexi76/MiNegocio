@@ -1,43 +1,4 @@
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
-
-//se add para db
-buildscript {
-    ext.kotlin_version = "1.5.10"
-    repositories {
-        google()
-        mavenCentral()
-
-    }
-    dependencies {
-        classpath 'org.jetbrains.kotlin:kotlin-gradle-plugin:1.8.20'
-    }
-}
-
-dependencies{
-    classpath "com.android.tools.build:gradle:8.0.1"
-    classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
-    classpath "com.google.gms:google-services:4.3.15"
-    classpath "org.jetbrains.kotlin:kotlin-symbol-processing-api:1.4.0-rc-dev-experimental-20200828"
-
-
-
-}
-
-
-allprojects {
-    repositories {
-        google()
-        mavenCentral()
-        jcenter()
-
-    }
-}
-
-
-
-
-
-
 plugins {
     id 'com.android.application' version '8.0.1' apply false
     id 'com.android.library' version '8.0.1' apply false

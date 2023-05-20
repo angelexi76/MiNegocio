@@ -30,7 +30,7 @@
 
 
         <androidx.cardview.widget.CardView
-            android:id="@+id/card"
+
             android:layout_width="match_parent"
             android:layout_height="804dp"
             android:layout_margin="16dp"
@@ -85,13 +85,10 @@
             </ScrollView>
 
             <ImageView
-<<<<<<< HEAD
-                android:layout_width="300dp"
-                android:layout_height="150dp"
-=======
+
+
                 android:layout_width="350dp"
                 android:layout_height="155dp"
->>>>>>> a6d32f728ac6512d20effeec583046e8e405eb44
                 android:layout_gravity="center"
                 android:layout_marginTop="50dp"
                 android:layout_marginStart="10dp"
@@ -110,11 +107,7 @@
                 android:layout_height="150dp"
                 android:layout_gravity="end"
                 android:layout_marginTop="80dp"
-<<<<<<< HEAD
-                android:layout_marginEnd="10dp"
-=======
                 android:layout_marginEnd="15dp"
->>>>>>> a6d32f728ac6512d20effeec583046e8e405eb44
                 android:src="@drawable/cupc2" />
 
 

@@ -31,7 +31,7 @@
 
 
    <androidx.cardview.widget.CardView
-       android:id="@+id/card2"
+
        android:layout_width="match_parent"
        android:layout_height="848dp"
        android:layout_margin="10dp"
@@ -56,14 +56,14 @@
       <TextView
 
           android:layout_width="match_parent"
-          android:layout_height="150dp"
+          android:layout_height="160dp"
           android:layout_gravity="center"
           android:layout_marginTop="55dp"
           android:paddingStart="9dp"
           android:paddingTop="9dp"
           android:text="@string/text_description2"
           android:textColor="@color/black"
-          android:textSize="25sp"
+          android:textSize="30sp"
           android:textStyle="italic" />
 
       <ImageView
@@ -94,7 +94,7 @@
           android:layout_width="wrap_content"
           android:layout_height="wrap_content"
           android:layout_marginStart="6dp"
-          android:layout_marginTop="555dp"
+          android:layout_marginTop="565dp"
           android:text="@string/text_price1"
           android:textColor="@color/black"
           android:textSize="25sp"
@@ -103,50 +103,56 @@
 
 
       <LinearLayout
-          android:layout_width="160dp"
+          android:layout_width="170dp"
           android:layout_height="60dp"
           android:layout_gravity="end"
-          android:layout_marginTop="600dp"
-          android:layout_marginEnd="15dp"
+          android:layout_marginTop="650dp"
+          android:layout_marginEnd="10dp"
           android:background="@drawable/boton"
           android:backgroundTint="@color/rosa"
           android:orientation="horizontal">
 
 
          <Button
-             android:id="@+id/button2"
+             android:id="@+id/btn_rest"
              android:layout_width="50dp"
              android:layout_height="50dp"
              android:layout_marginStart="10dp"
+             android:layout_marginTop="5dp"
              android:background="@drawable/boton"
              android:backgroundTint="@color/black"
-             android:onClick="sum2"
+             android:elevation="3dp"
+             android:onClick="subtract1"
              android:padding="1dp"
-             android:text="+"
+             android:text="-"
              android:textColor="@color/white"
-             android:textSize="25dp" />
+             android:textSize="30dp" />
 
          <ImageView
-             android:layout_width="45dp"
+             android:layout_width="50dp"
              android:layout_height="50dp"
              android:layout_gravity="end"
-             android:layout_marginTop="90dp"
+             android:layout_marginTop="100dp"
              android:background="@color/rosa"
              android:onClick="buttonBuy"
              android:padding="2dp"
              android:src="@drawable/icon_pastel" />
 
+
          <Button
-             android:id="@+id/button3"
+             android:id="@+id/btn_sum"
              android:layout_width="50dp"
              android:layout_height="50dp"
+             android:layout_marginTop="5dp"
+             android:layout_marginEnd="15dp"
              android:background="@drawable/boton"
              android:backgroundTint="@color/black"
-             android:onClick="rest2"
+             android:onClick="add1"
              android:padding="1dp"
-             android:text="-"
+             android:text="+"
              android:textColor="@color/white"
-             android:textSize="25dp" />
+             android:textSize="30dp" />
+
 
 
       </LinearLayout>
@@ -157,7 +163,7 @@
           android:layout_height="wrap_content"
           android:layout_gravity="bottom|center"
           android:layout_margin="6dp"
-          android:layout_marginBottom="20dp"
+          android:layout_marginBottom="25dp"
           android:background="@drawable/boton"
           android:backgroundTint="@color/white"
           android:onClick="buttonBuy"

@@ -120,7 +120,17 @@
               android:textSize="30sp"
               android:textStyle="bold" />
 
-n>
+
+          <Button
+              android:id="@+id/btn_w"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_gravity="bottom|center"
+              android:onClick="send_data"
+              android:layout_marginBottom="40dp"
+              android:background="@drawable/icon_w">
+
+          </Button>
 
 
       </androidx.cardview.widget.CardView>

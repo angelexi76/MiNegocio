@@ -1,5 +1,6 @@
 package com.angelasanchez.minegocio
 
+import android.annotation.SuppressLint
 import android.content.Intent
 import android.net.Uri
 
@@ -19,7 +20,7 @@ class BuyActivity1 : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(layout.activity_buy1)
 
-
+        btn_w = findViewById(id.btn_w)
 
 
         if (savedInstanceState == null) {
@@ -35,7 +36,6 @@ class BuyActivity1 : AppCompatActivity() {
 
 // La forma correcta de establecer el paquete de destino en el intent es utilizando
 // la instancia intent creada previamente, en lugar de utilizar la clase Intent
-
 
 
     fun send(view: View){

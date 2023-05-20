@@ -71,14 +71,14 @@
                     <TextView
 
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent"
+                        android:layout_height="250dp"
                         android:layout_gravity="center"
                         android:layout_marginTop="250dp"
-                        android:paddingStart="15dp"
-                        android:paddingTop="20dp"
+                        android:paddingStart="9dp"
+                        android:paddingTop="9dp"
                         android:text="@string/text_description2"
                         android:textColor="@color/black"
-                        android:textSize="30sp"
+                        android:textSize="35sp"
                         android:textStyle="italic" />
                 </LinearLayout>
 
@@ -88,7 +88,7 @@
                 android:layout_width="300dp"
                 android:layout_height="155dp"
                 android:layout_gravity="center"
-                android:layout_marginTop="50dp"
+                android:layout_marginTop="30dp"
                 android:layout_marginStart="20dp"
                 android:layout_marginBottom="150dp"
                 android:src="@drawable/theme" />
@@ -114,7 +114,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="15dp"
-                android:layout_marginTop="550dp"
+                android:layout_marginTop="500dp"
                 android:paddingStart="15dp"
                 android:text="@string/text_price1"
                 android:textColor="@color/black"
@@ -123,20 +123,21 @@
 
 
             <LinearLayout
-                android:layout_width="160dp"
-                android:layout_height="wrap_content"
+                android:layout_width="190dp"
+                android:layout_height="70dp"
                 android:layout_gravity="end"
                 android:layout_marginTop="600dp"
                 android:layout_marginEnd="15dp"
                 android:background="@drawable/boton"
-                android:backgroundTint="@color/white"
+                android:backgroundTint="@color/rosa"
                 android:orientation="horizontal">
 
                 <Button
                     android:id="@+id/btn_rest"
-                    android:layout_width="50dp"
-                    android:layout_height="50dp"
-                    android:layout_marginStart="10dp"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginStart="6dp"
+                    android:layout_marginTop="5dp"
                     android:background="@drawable/boton"
                     android:backgroundTint="@color/black"
                     android:elevation="3dp"
@@ -147,25 +148,23 @@
                     android:textSize="30dp" />
 
 
-                <TextView
-
-                    android:id="@+id/textBox"
-                    android:layout_width="40dp"
-                    android:layout_height="40dp"
-                    android:background="@drawable/boton"
-                    android:gravity="center"
-                    android:onClick="textcontador"
-                    android:padding="1dp"
-                    android:text="0"
-                    android:textColor="@color/black"
-                    android:textSize="25sp"
-                    android:textStyle="bold" />
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="100dp"
+                    android:background="@color/rosa"
+                    android:onClick="buttonBuy"
+                    android:padding="2dp"
+                    android:src="@drawable/icon_pastel" />
 
 
                 <Button
                     android:id="@+id/btn_sum"
-                    android:layout_width="50dp"
-                    android:layout_height="50dp"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="9dp"
                     android:background="@drawable/boton"
                     android:backgroundTint="@color/black"
                     android:onClick="add1"
@@ -183,7 +182,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="bottom|center"
                 android:layout_margin="6dp"
-                android:layout_marginBottom="30dp"
+                android:layout_marginBottom="40dp"
                 android:background="@drawable/boton"
                 android:backgroundTint="@color/white"
                 android:onClick="buttonBuy"

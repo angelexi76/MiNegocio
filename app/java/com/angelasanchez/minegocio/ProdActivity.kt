@@ -6,11 +6,9 @@ import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
 import android.view.View
-import android.widget.Button
 import android.widget.TextView
 import android.widget.Toast
-import com.angelasanchez.minegocio.R.*
-import com.angelasanchez.minegocio.R.id.*
+
 
 class ProdActivity : AppCompatActivity() {
 
@@ -22,8 +20,8 @@ class ProdActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(layout.activity_prod)
-        setSupportActionBar(findViewById(my_barra))
+        setContentView(R.layout.activity_prod)
+        setSupportActionBar(findViewById(R.id.my_barra))
 
 
         fruit = findViewById<TextView>(R.id.fruit)
@@ -34,34 +32,35 @@ class ProdActivity : AppCompatActivity() {
 
     }
 
-    fun fruit1(View: View) {
+        fun fruit1(View: View) {
 
-        fruit.setOnClickListener {
+                fruit.setOnClickListener {
 
-        }
-        val fruit1 = Intent(this, Prod1Activity::class.java)
-        startActivity(fruit1)
-
-    }
-    fun theme(View: View) {
-
-        them.setOnClickListener {
+                }
+                val fruit1 = Intent(this, Prod1Activity::class.java)
+                startActivity(fruit1)
 
         }
-        val themes = Intent(this, Prod2Activity::class.java)
-        startActivity(themes)
 
-    }
+        fun theme(View: View) {
 
-    fun cake(View: View) {
+                them.setOnClickListener {
 
-        favor.setOnClickListener {
+                }
+                val themes = Intent(this, Prod2Activity::class.java)
+                startActivity(themes)
 
         }
-        val cakes = Intent(this, Prod3Activity::class.java)
-        startActivity(cakes)
 
-    }
+        fun cake(View: View) {
+
+                favor.setOnClickListener {
+
+                }
+                val cakes = Intent(this, Prod3Activity::class.java)
+                startActivity(cakes)
+
+        }
 
         fun cup(View: View) {
 
@@ -83,13 +82,13 @@ class ProdActivity : AppCompatActivity() {
     }
     //when evalua si el item q se pulso coincide con el  R.id.txv_action_search    si es true creamos la funcion anonima  -> q defina la accion a realizar
     override fun onOptionsItemSelected(item: MenuItem): Boolean =when(item.itemId) {
-        txv_action_search -> {
+        R.id.action_search -> {
             Toast.makeText(this,R.string.text_action_search, Toast.LENGTH_LONG).show()
             true
 
         }
 
-        tvx_action_logout -> {
+        R.id.action_logout -> {
             Toast.makeText(this, R.string.text_action_logout, Toast.LENGTH_LONG).show()
             true
         }

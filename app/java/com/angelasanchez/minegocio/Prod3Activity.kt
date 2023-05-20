@@ -9,69 +9,84 @@ import android.view.MenuItem
 import android.view.View
 import android.widget.Button
 import android.widget.Toast
-import com.angelasanchez.minegocio.R.drawable.cupc_1
+import com.angelasanchez.minegocio.R.*
 
 class Prod3Activity : AppCompatActivity() {
 
+    private lateinit var btn_buy1: Button
 
 
-
-    private lateinit var btnBuy1:Button
-
+    //variables contador
+    var contador = 0
+    private lateinit var btn_sum: Button
+    private lateinit var btn_rest: Button
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_prod3)
-        setSupportActionBar(findViewById(R.id.my_barra))
+        setContentView(layout.activity_prod3)
+        setSupportActionBar(findViewById(id.my_barra))
+
+        btn_buy1 = findViewById<Button>(id.btn_buy1)
+
+        //contador
+
+        btn_sum = findViewById<Button>(id.btn_sum)
+
+        btn_rest = findViewById<Button>(id.btn_rest)
+
+    }
+    fun add1(view: View) {
 
 
 
-
-        btnBuy1 = findViewById<Button>(R.id.btnBuy1)
-
+        btn_sum.setOnClickListener{
+            contador++
+            contador
+            btn_sum.text=contador.toString()
+        }
 
     }
 
 
+    fun subtract1(view: View) {
 
 
-
-
-
-    fun card3(View: View) {
-
-
-        val cakes = Intent(this, Prod3Activity::class.java)
-        startActivity(cakes)
+        btn_rest.setOnClickListener {
+            contador--
+            contador
+            btn_rest.text=contador.toString()
+        }
 
     }
 
-
+//boton buy
     @SuppressLint("SuspiciousIndentation")
     fun buttonBuy(view: View){
 
-        btnBuy1.setOnClickListener {
+        btn_buy1.setOnClickListener {
 
         }
         val buys = Intent(this, BuyActivity1::class.java)
         startActivity(buys)
     }
 
-//menu//
+
+
+    //menu//
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
         menuInflater.inflate(R.menu.menu, menu)
         return super.onCreateOptionsMenu(menu)
     }
     //when evalua si el item q se pulso coincide con el  R.id.txv_action_search    si es true creamos la funcion anonima  -> q defina la accion a realizar
     override fun onOptionsItemSelected(item: MenuItem): Boolean =when(item.itemId) {
-        R.id.txv_action_search-> {
+        id.txv_action_search-> {
             Toast.makeText(this,R.string.text_action_search, Toast.LENGTH_LONG).show()
             true
 
         }
 
-        R.id.tvx_action_logout-> {
+        id.tvx_action_logout-> {
             Toast.makeText(this, R.string.text_action_logout, Toast.LENGTH_LONG).show()
             true
         }
