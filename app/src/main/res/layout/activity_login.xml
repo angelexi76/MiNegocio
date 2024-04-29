@@ -59,19 +59,15 @@
             android:layout_weight="1"
             android:orientation="vertical">
 
-            <com.google.android.material.textfield.TextInputLayout
-                android:id="@+id/email_layout"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
 
 
-                <EditText
+            <EditText
                 android:id="@+id/email"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
                 android:layout_marginEnd="5dp"
-                    android:background="@drawable/boton"
+                android:background="@drawable/boton"
                 android:hint="@string/text_email"
                 android:inputType="textEmailAddress"
                 android:paddingStart="6dp"
@@ -80,32 +76,26 @@
                 android:textSize="30dp"
                 android:textStyle="italic" />
 
-            </com.google.android.material.textfield.TextInputLayout>
 
-            <com.google.android.material.textfield.TextInputLayout
-                android:id="@+id/password_layout"
+
+
+            <EditText
+                android:id="@+id/password"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="5dp"
+                android:background="@drawable/boton"
+                android:hint="@string/text_password"
+                android:inputType="textPassword"
+                android:paddingStart="6dp"
+                android:textAlignment="textStart"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:textSize="30dp"
+                android:textStyle="italic" />
 
-
-                <EditText
-                    android:id="@+id/password"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="10dp"
-                    android:layout_marginTop="10dp"
-                    android:layout_marginEnd="5dp"
-                    android:background="@drawable/boton"
-                    android:hint="@string/text_password"
-                    android:inputType="textPassword"
-                    android:paddingStart="6dp"
-                    android:textAlignment="textStart"
-                    android:textColor="@color/black"
-                    android:textColorHint="@color/black"
-                    android:textSize="30dp"
-                    android:textStyle="italic" />
-
-            </com.google.android.material.textfield.TextInputLayout>
 
 
             <Button
